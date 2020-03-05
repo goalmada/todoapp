@@ -1,10 +1,13 @@
 from flask import Flask, render_template, request, redirect, url_for, jsonify #flask allows us to create an app#
 from flask_sqlalchemy import SQLAlchemy
 import sys
+from flask_migrate import Migrate
 
 app = Flask(__name__) #create an app with the name of our file ie app#
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://diegoalmada@localhost:5432/pp'
-t #links sqlalchemy to our flask app#
+db = SQLAlchemy(app) #links sqlalchemy to our flask app#
+
+migrate = Migrate(app, db)
 
 class Todo(db.Model): #to link it to sqlalchemy this needs to inherit from db.Model#
     __tablename__ = 'todos'
@@ -19,11 +22,13 @@ db.create_all() #to sync our models to the database#
 @app.route('/todos/create', methods=['POST'])
 def create_todo():
     error = False
+    body = {}
     try:
         description = request.get_json()['description']
         todo = Todo(description=description)
         db.session.add(todo)
         db.session.commit() #**#
+        body['description'] = todo.description
     except:
         error = True
         db.session.rollback()
@@ -31,11 +36,7 @@ def create_todo():
     finally:
         db.session.close()
     if not error:
-        return jsonify({
-            'description': todo.description #if db = SQLAlchemy(app) does not define expire_on_commit: then todo.description would be expired by now **#
-        })
-
-
+        return jsonify(body)
 
 @app.route('/') #this route listens to our homepage#
 def index(): #we'll call our route handler: index#
