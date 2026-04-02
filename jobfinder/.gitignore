@@ -1,0 +1,4 @@
+data/seen_jobs.json
+data/jobs_*.csv
+config/service_account.json
+__pycache__/
