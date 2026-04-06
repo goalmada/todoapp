@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Breathe</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Breathe">
+    <meta name="theme-color" content="#0f1419">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="/icon-192.svg">
+    <style>
+        :root{--bg:#0f1419;--surface:#1a2028;--surface2:#232d38;--accent:#4fc3f7;--accent2:#81d4fa;--warm:#ffab91;--text:#e0e6ed;--text-dim:#8899a6;--exhale:#80cbc4;--inhale:#4fc3f7;--hold:#ce93d8;--rest:#ffcc80;--success:#a5d6a7;--radius:12px}
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--text);min-height:100vh;overflow-x:hidden;padding-top:env(safe-area-inset-top)}
+        .container{max-width:800px;margin:0 auto;padding:20px}
+        header{text-align:center;padding:30px 0 20px}
+        header h1{font-size:2em;font-weight:300;letter-spacing:.05em;color:var(--accent2)}
+        header p{color:var(--text-dim);margin-top:8px;font-size:.95em}
+        .reminder-bar{background:var(--surface);border:1px solid var(--surface2);border-radius:var(--radius);padding:16px 20px;margin-bottom:24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+        .reminder-bar .label{font-size:.9em;color:var(--text-dim)}
+        .reminder-bar .controls{display:flex;align-items:center;gap:10px}
+        .reminder-bar select,.reminder-bar button{background:var(--surface2);border:1px solid #3a4550;color:var(--text);padding:8px 14px;border-radius:8px;font-size:.85em;cursor:pointer}
+        .reminder-bar button.active{background:var(--accent);color:var(--bg);border-color:var(--accent);font-weight:600}
+        .reminder-status{font-size:.8em;color:var(--success);display:none}
+        .reminder-status.visible{display:inline}
+        .techniques{display:grid;gap:16px;margin-bottom:30px}
+        .technique-card{background:var(--surface);border:1px solid var(--surface2);border-radius:var(--radius);padding:20px;cursor:pointer;transition:all .2s}
+        .technique-card:hover{border-color:var(--accent);transform:translateY(-1px)}
+        .technique-card.selected{border-color:var(--accent);background:var(--surface2)}
+        .technique-card h3{font-size:1.05em;color:var(--accent2);margin-bottom:6px}
+        .technique-card .desc{font-size:.85em;color:var(--text-dim);line-height:1.5;margin-bottom:10px}
+        .technique-card .steps-preview{display:flex;gap:8px;flex-wrap:wrap}
+        .step-badge{font-size:.75em;padding:4px 10px;border-radius:20px;font-weight:600}
+        .step-badge.Inhale{background:rgba(79,195,247,.15);color:var(--inhale)}
+        .step-badge.Exhale{background:rgba(128,203,196,.15);color:var(--exhale)}
+        .step-badge.Hold{background:rgba(206,147,216,.15);color:var(--hold)}
+        .step-badge.Rest{background:rgba(255,204,128,.15);color:var(--rest)}
+        .technique-card .benefit{font-size:.8em;color:var(--warm);margin-top:10px;font-style:italic}
+        .exercise-area{display:none;text-align:center;padding:20px 0 40px}
+        .exercise-area.active{display:block}
+        .exercise-title{font-size:1.2em;color:var(--accent2);margin-bottom:6px}
+        .cycle-counter{font-size:.85em;color:var(--text-dim);margin-bottom:30px}
+        .breath-circle-container{position:relative;width:280px;height:280px;margin:0 auto 30px}
+        .breath-circle{width:280px;height:280px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;transition:transform .5s ease,box-shadow .5s ease;position:relative}
+        .breath-circle.inhale{background:radial-gradient(circle,rgba(79,195,247,.2) 0%,rgba(79,195,247,.05) 70%);box-shadow:0 0 60px rgba(79,195,247,.2)}
+        .breath-circle.exhale{background:radial-gradient(circle,rgba(128,203,196,.2) 0%,rgba(128,203,196,.05) 70%);box-shadow:0 0 60px rgba(128,203,196,.2)}
+        .breath-circle.hold{background:radial-gradient(circle,rgba(206,147,216,.2) 0%,rgba(206,147,216,.05) 70%);box-shadow:0 0 60px rgba(206,147,216,.2)}
+        .breath-circle.rest{background:radial-gradient(circle,rgba(255,204,128,.2) 0%,rgba(255,204,128,.05) 70%);box-shadow:0 0 60px rgba(255,204,128,.2)}
+        .phase-label{font-size:1.8em;font-weight:300;letter-spacing:.1em;text-transform:uppercase}
+        .phase-label.inhale{color:var(--inhale)}.phase-label.exhale{color:var(--exhale)}.phase-label.hold{color:var(--hold)}.phase-label.rest{color:var(--rest)}
+        .timer-display{font-size:3em;font-weight:200;margin-top:4px;color:var(--text)}
+        .instruction-text{font-size:.95em;color:var(--text-dim);margin-top:8px;max-width:200px}
+        .progress-ring{position:absolute;top:0;left:0;width:280px;height:280px;transform:rotate(-90deg)}
+        .progress-ring circle{fill:none;stroke-width:3;stroke-linecap:round;transition:stroke .3s}
+        .progress-ring .bg{stroke:var(--surface2)}
+        .progress-ring .fg{stroke:var(--accent);transition:stroke-dashoffset .1s linear,stroke .3s}
+        .progress-ring .fg.inhale{stroke:var(--inhale)}.progress-ring .fg.exhale{stroke:var(--exhale)}.progress-ring .fg.hold{stroke:var(--hold)}.progress-ring .fg.rest{stroke:var(--rest)}
+        .exercise-controls{display:flex;gap:12px;justify-content:center;margin-top:10px}
+        .btn{padding:12px 32px;border-radius:30px;border:none;font-size:.95em;cursor:pointer;font-weight:500;transition:all .2s}
+        .btn-primary{background:var(--accent);color:var(--bg)}.btn-primary:hover{background:var(--accent2)}
+        .btn-secondary{background:var(--surface2);color:var(--text);border:1px solid #3a4550}.btn-secondary:hover{border-color:var(--accent)}
+        .session-complete{display:none;text-align:center;padding:40px 20px}
+        .session-complete.active{display:block}
+        .session-complete h2{font-size:1.5em;color:var(--success);font-weight:300;margin-bottom:10px}
+        .session-complete p{color:var(--text-dim);line-height:1.6;max-width:500px;margin:0 auto 20px}
+        .session-log{font-size:.8em;color:var(--text-dim);margin-top:16px}
+        .tips-section{margin-top:10px;margin-bottom:40px}
+        .tips-section h2{font-size:1.1em;color:var(--warm);margin-bottom:16px;font-weight:400}
+        .tip-card{background:var(--surface);border:1px solid var(--surface2);border-radius:var(--radius);padding:16px 20px;margin-bottom:12px}
+        .tip-card h4{font-size:.9em;color:var(--accent2);margin-bottom:6px}
+        .tip-card p{font-size:.83em;color:var(--text-dim);line-height:1.6}
+        .notification{position:fixed;top:20px;right:20px;background:var(--surface);border:1px solid var(--accent);border-radius:var(--radius);padding:16px 24px;box-shadow:0 8px 32px rgba(0,0,0,.4);z-index:1000;max-width:340px;animation:slideIn .3s ease;display:none}
+        .notification.show{display:block}
+        .notification h4{color:var(--accent2);font-size:.95em;margin-bottom:4px}
+        .notification p{color:var(--text-dim);font-size:.83em;line-height:1.4}
+        .notification .notif-actions{margin-top:10px;display:flex;gap:8px}
+        .notification .notif-actions button{padding:6px 16px;border-radius:20px;border:none;font-size:.8em;cursor:pointer}
+        .notification .btn-start-now{background:var(--accent);color:var(--bg);font-weight:600}
+        .notification .btn-dismiss{background:var(--surface2);color:var(--text-dim)}
+        @keyframes slideIn{from{transform:translateX(100px);opacity:0}to{transform:translateX(0);opacity:1}}
+        .tracker{background:var(--surface);border:1px solid var(--surface2);border-radius:var(--radius);padding:16px 20px;margin-bottom:24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+        .tracker-label{font-size:.9em;color:var(--text-dim)}
+        .tracker-dots{display:flex;gap:6px}
+        .tracker-dot{width:14px;height:14px;border-radius:50%;background:var(--surface2);border:1px solid #3a4550}
+        .tracker-dot.done{background:var(--success);border-color:var(--success)}
+        .tracker-stat{font-size:.8em;color:var(--text-dim)}
+        @media(max-width:600px){.container{padding:12px}header h1{font-size:1.5em}.breath-circle-container,.breath-circle,.progress-ring{width:220px;height:220px}.timer-display{font-size:2.5em}.phase-label{font-size:1.4em}}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Breathe</h1>
+            <p>Extended exhale breathing to calm your nervous system &amp; warm your extremities</p>
+        </header>
+        <div class="reminder-bar">
+            <div><span class="label">Remind me every</span></div>
+            <div class="controls">
+                <select id="reminderInterval">
+                    <option value="0">Off</option>
+                    <option value="30">30 min</option>
+                    <option value="45">45 min</option>
+                    <option value="60" selected>1 hour</option>
+                    <option value="90">1.5 hours</option>
+                    <option value="120">2 hours</option>
+                </select>
+                <button id="reminderToggle" onclick="toggleReminder()">Start Reminders</button>
+                <span class="reminder-status" id="reminderStatus">Active</span>
+            </div>
+        </div>
+        <div class="tracker">
+            <span class="tracker-label">Today's sessions</span>
+            <div class="tracker-dots" id="trackerDots"></div>
+            <span class="tracker-stat" id="trackerStat">0 / 6 goal</span>
+        </div>
+        <div class="techniques" id="techniquesGrid"></div>
+        <div class="exercise-area" id="exerciseArea">
+            <h3 class="exercise-title" id="exerciseTitle"></h3>
+            <div class="cycle-counter" id="cycleCounter">Cycle 1 / 6</div>
+            <div class="breath-circle-container">
+                <svg class="progress-ring" viewBox="0 0 280 280">
+                    <circle class="bg" cx="140" cy="140" r="134"/>
+                    <circle class="fg" id="progressFg" cx="140" cy="140" r="134" stroke-dasharray="842" stroke-dashoffset="842"/>
+                </svg>
+                <div class="breath-circle" id="breathCircle">
+                    <div class="phase-label" id="phaseLabel">Ready</div>
+                    <div class="timer-display" id="timerDisplay">&mdash;</div>
+                    <div class="instruction-text" id="instructionText">Pick a technique above</div>
+                </div>
+            </div>
+            <div class="exercise-controls">
+                <button class="btn btn-primary" id="startBtn" onclick="startExercise()">Begin</button>
+                <button class="btn btn-secondary" onclick="stopExercise()">Stop</button>
+            </div>
+        </div>
+        <div class="session-complete" id="sessionComplete">
+            <h2>Session Complete</h2>
+            <p id="completionMsg"></p>
+            <button class="btn btn-primary" onclick="resetExercise()">Do Another</button>
+            <div class="session-log" id="sessionLog"></div>
+        </div>
+        <div class="tips-section" id="tipsSection">
+            <h2>Why this works &mdash; the science of extended exhale breathing</h2>
+        </div>
+    </div>
+    <div class="notification" id="notification">
+        <h4>Time to breathe</h4>
+        <p id="notifMessage">Take 2 minutes to reset your nervous system.</p>
+        <div class="notif-actions">
+            <button class="btn-start-now" onclick="notifStartNow()">Start Now</button>
+            <button class="btn-dismiss" onclick="dismissNotif()">Later</button>
+        </div>
+    </div>
+    <script>
+    const techniques={calm_exhale:{name:"Calm Exhale (4-2-8)",description:"Extended exhale activates your vagus nerve, shifting your nervous system into rest-and-digest mode. Improves circulation to extremities and reduces anxiety.",steps:[{phase:"Inhale",duration:4,instruction:"Breathe in slowly through your nose"},{phase:"Hold",duration:2,instruction:"Gentle pause"},{phase:"Exhale",duration:8,instruction:"Slow, steady exhale through pursed lips"}],cycles:6,benefit:"Longest exhale ratio — maximizes vagal tone and calms cold extremities"},relaxing_478:{name:"4-7-8 Relaxing Breath",description:"Dr. Andrew Weil's technique. The extended hold saturates blood with oxygen, and the long exhale relaxes smooth muscle in blood vessels, warming your hands and feet.",steps:[{phase:"Inhale",duration:4,instruction:"Inhale quietly through your nose"},{phase:"Hold",duration:7,instruction:"Hold your breath gently"},{phase:"Exhale",duration:8,instruction:"Exhale completely through your mouth"}],cycles:4,benefit:"Natural tranquilizer for the nervous system — do this 2x daily minimum"},box_extended:{name:"Extended Box (4-4-6-2)",description:"A variation of Navy SEAL box breathing modified with a longer exhale. Balances focus with calm — good for work sessions.",steps:[{phase:"Inhale",duration:4,instruction:"Steady breath in through the nose"},{phase:"Hold",duration:4,instruction:"Hold at the top"},{phase:"Exhale",duration:6,instruction:"Slow controlled exhale"},{phase:"Rest",duration:2,instruction:"Empty pause before next breath"}],cycles:5,benefit:"Great for focus + calm during work — exhale is still longer than the inhale"},coherent:{name:"Coherent Breathing (5-5)",description:"Breathing at ~6 breaths per minute synchronizes heart rate variability (HRV). Higher HRV = better blood flow regulation and warmer extremities.",steps:[{phase:"Inhale",duration:5,instruction:"Smooth, even inhale"},{phase:"Exhale",duration:5,instruction:"Smooth, even exhale — relax shoulders and jaw"}],cycles:8,benefit:"Optimizes heart rate variability — the #1 metric for nervous system health"}};
+
+    const healthTips=[
+        {title:"Why longer exhales warm your hands & feet",body:"When you exhale longer than you inhale, you stimulate the vagus nerve. This shifts your autonomic nervous system from sympathetic (fight-or-flight, which constricts blood vessels in extremities) to parasympathetic (rest-and-digest, which dilates them). More blood flows to your fingers and toes."},
+        {title:"Cold extremities = nervous system signal",body:"Cold hands and feet are often caused by vasoconstriction from chronic sympathetic nervous system activation (stress/anxiety). It's your body redirecting blood to vital organs. Extended exhale breathing directly counteracts this."},
+        {title:"The 2x daily minimum",body:"Research shows that just 5 minutes of extended-exhale breathing twice daily can measurably improve heart rate variability within 2 weeks. Morning and mid-afternoon are ideal — that's when cortisol naturally spikes."},
+        {title:"Nose breathing matters",body:"Breathing through your nose produces nitric oxide, a vasodilator that opens blood vessels and improves circulation. Mouth breathing skips this. Always inhale through your nose during these exercises."},
+        {title:"The vagus nerve connection",body:"The vagus nerve runs from your brainstem to your gut. Long exhales increase vagal tone, which lowers heart rate, reduces inflammation, improves digestion, and relaxes smooth muscle in blood vessel walls, allowing more blood to reach your extremities."},
+        {title:"Breathing before meals",body:"Doing 2 minutes of extended-exhale breathing before eating shifts your body into parasympathetic mode, improving digestion and nutrient absorption. Your body can't properly digest in fight-or-flight mode."},
+        {title:"Stack it with movement",body:"After a breathing session, gently shake your hands and feet for 30 seconds. The combination of vasodilation from breathing + mechanical movement pumps blood into extremities faster."}
+    ];
+
+    const notifMessages=["Take 2 minutes to reset your nervous system. Your hands and feet will thank you.","Quick breathing break — longer exhales calm your fight-or-flight response.","Your nervous system needs a reset. A few slow exhales will improve your circulation.","Cold hands? Anxious? 2 minutes of extended exhale breathing can help right now.","Pause and breathe. Your vagus nerve activates with each slow exhale.","Breathing reminder: inhale 4, exhale 8. Just a few rounds makes a difference."];
+
+    let selectedTechnique=null,exerciseRunning=false,exerciseTimer=null,reminderTimer=null,currentCycle=0,currentStepIdx=0,currentSecond=0,sessionsToday=0;
+    const DAILY_GOAL=6,CIRCUMFERENCE=2*Math.PI*134;
+
+    function renderTechniques(){
+        const grid=document.getElementById('techniquesGrid');
+        let html='';
+        for(const[key,tech]of Object.entries(techniques)){
+            html+=`<div class="technique-card" data-key="${key}" onclick="selectTechnique('${key}')">
+                <h3>${tech.name}</h3>
+                <p class="desc">${tech.description}</p>
+                <div class="steps-preview">
+                    ${tech.steps.map(s=>`<span class="step-badge ${s.phase}">${s.phase} ${s.duration}s</span>`).join('')}
+                    <span class="step-badge" style="background:rgba(255,255,255,.05);color:var(--text-dim)">${tech.cycles} cycles</span>
+                </div>
+                <p class="benefit">${tech.benefit}</p>
+            </div>`;
+        }
+        grid.innerHTML=html;
+    }
+
+    function renderTips(){
+        const section=document.getElementById('tipsSection');
+        let html='<h2>Why this works &mdash; the science of extended exhale breathing</h2>';
+        healthTips.forEach(t=>{
+            html+=`<div class="tip-card"><h4>${t.title}</h4><p>${t.body}</p></div>`;
+        });
+        section.innerHTML=html;
+    }
+
+    function loadSessions(){
+        const today=new Date().toISOString().slice(0,10);
+        const data=JSON.parse(localStorage.getItem('breathingSessions')||'{}');
+        sessionsToday=(data.date===today)?data.count:0;
+    }
+
+    function saveSessions(){
+        const today=new Date().toISOString().slice(0,10);
+        localStorage.setItem('breathingSessions',JSON.stringify({date:today,count:sessionsToday}));
+    }
+
+    function renderTracker(){
+        const dots=document.getElementById('trackerDots');
+        dots.innerHTML='';
+        for(let i=0;i<DAILY_GOAL;i++){
+            const d=document.createElement('div');
+            d.className='tracker-dot'+(i<sessionsToday?' done':'');
+            dots.appendChild(d);
+        }
+        document.getElementById('trackerStat').textContent=`${sessionsToday} / ${DAILY_GOAL} goal`;
+    }
+
+    function toggleReminder(){
+        const btn=document.getElementById('reminderToggle');
+        const status=document.getElementById('reminderStatus');
+        if(reminderTimer){
+            clearInterval(reminderTimer);reminderTimer=null;
+            btn.textContent='Start Reminders';btn.classList.remove('active');status.classList.remove('visible');
+        }else{
+            const mins=parseInt(document.getElementById('reminderInterval').value);
+            if(mins===0)return;
+            reminderTimer=setInterval(showReminder,mins*60*1000);
+            btn.textContent='Stop Reminders';btn.classList.add('active');status.classList.add('visible');
+            if('Notification' in window&&Notification.permission==='default')Notification.requestPermission();
+        }
+    }
+
+    function showReminder(){
+        const notif=document.getElementById('notification');
+        const msg=notifMessages[Math.floor(Math.random()*notifMessages.length)];
+        document.getElementById('notifMessage').textContent=msg;
+        notif.classList.add('show');
+        if('Notification' in window&&Notification.permission==='granted'){
+            new Notification('Time to breathe',{body:msg});
+        }
+        setTimeout(()=>notif.classList.remove('show'),30000);
+    }
+
+    function dismissNotif(){document.getElementById('notification').classList.remove('show');}
+
+    function notifStartNow(){
+        dismissNotif();
+        if(!selectedTechnique)selectTechnique('calm_exhale');
+        window.scrollTo({top:0,behavior:'smooth'});
+        setTimeout(startExercise,500);
+    }
+
+    function selectTechnique(key){
+        selectedTechnique=key;
+        const tech=techniques[key];
+        document.querySelectorAll('.technique-card').forEach(c=>c.classList.remove('selected'));
+        document.querySelector(`[data-key="${key}"]`).classList.add('selected');
+        document.getElementById('exerciseArea').classList.add('active');
+        document.getElementById('sessionComplete').classList.remove('active');
+        document.getElementById('exerciseTitle').textContent=tech.name;
+        document.getElementById('cycleCounter').textContent=`Cycle 1 / ${tech.cycles}`;
+        document.getElementById('phaseLabel').textContent='Ready';
+        document.getElementById('phaseLabel').className='phase-label';
+        document.getElementById('timerDisplay').textContent='\u2014';
+        document.getElementById('instructionText').textContent='Press Begin when ready';
+        document.getElementById('breathCircle').className='breath-circle';
+        document.getElementById('startBtn').textContent='Begin';
+        document.getElementById('startBtn').disabled=false;
+        resetProgress();stopExercise();
+    }
+
+    function startExercise(){
+        if(!selectedTechnique||exerciseRunning)return;
+        exerciseRunning=true;currentCycle=0;currentStepIdx=0;currentSecond=0;
+        document.getElementById('startBtn').disabled=true;
+        document.getElementById('startBtn').textContent='Running...';
+        runStep();
+    }
+
+    function runStep(){
+        if(!exerciseRunning)return;
+        const tech=techniques[selectedTechnique];
+        const step=tech.steps[currentStepIdx];
+        const phase=step.phase.toLowerCase();
+        document.getElementById('cycleCounter').textContent=`Cycle ${currentCycle+1} / ${tech.cycles}`;
+        const pl=document.getElementById('phaseLabel');
+        pl.textContent=step.phase;pl.className='phase-label '+phase;
+        document.getElementById('instructionText').textContent=step.instruction;
+        document.getElementById('breathCircle').className='breath-circle '+phase;
+        document.getElementById('progressFg').className='fg '+phase;
+        const circle=document.getElementById('breathCircle');
+        if(phase==='inhale')circle.style.transform='scale(1.15)';
+        else if(phase==='exhale')circle.style.transform='scale(1)';
+        currentSecond=step.duration;
+        document.getElementById('timerDisplay').textContent=currentSecond;
+        exerciseTimer=setInterval(()=>{
+            currentSecond--;
+            document.getElementById('timerDisplay').textContent=currentSecond;
+            const progress=1-(currentSecond/step.duration);
+            document.getElementById('progressFg').style.strokeDashoffset=CIRCUMFERENCE*(1-progress);
+            if(currentSecond<=0){clearInterval(exerciseTimer);advanceStep();}
+        },1000);
+    }
+
+    function advanceStep(){
+        if(!exerciseRunning)return;
+        const tech=techniques[selectedTechnique];
+        currentStepIdx++;
+        if(currentStepIdx>=tech.steps.length){currentStepIdx=0;currentCycle++;
+            if(currentCycle>=tech.cycles){completeExercise();return;}
+        }
+        resetProgress();runStep();
+    }
+
+    function resetProgress(){document.getElementById('progressFg').style.strokeDashoffset=CIRCUMFERENCE;}
+
+    function stopExercise(){
+        exerciseRunning=false;
+        if(exerciseTimer)clearInterval(exerciseTimer);
+        document.getElementById('startBtn').disabled=false;
+        document.getElementById('startBtn').textContent='Begin';
+    }
+
+    function completeExercise(){
+        exerciseRunning=false;if(exerciseTimer)clearInterval(exerciseTimer);
+        sessionsToday++;saveSessions();renderTracker();
+        document.getElementById('exerciseArea').classList.remove('active');
+        document.getElementById('sessionComplete').classList.add('active');
+        const tech=techniques[selectedTechnique];
+        const totalTime=tech.steps.reduce((s,st)=>s+st.duration,0)*tech.cycles;
+        document.getElementById('sessionLog').textContent=`${tech.name} — ${tech.cycles} cycles — ${Math.floor(totalTime/60)}m ${totalTime%60}s total`;
+        const msgs=["Well done. Your vagus nerve is activated. Notice your hands and feet — they should feel slightly warmer.","Session complete. The parasympathetic shift will continue for the next 15-20 minutes.","Great work. Each session builds cumulative vagal tone. Your nervous system is getting better at self-regulating.","Done. Blood vessels in your extremities just dilated. This effect compounds with consistent practice."];
+        document.getElementById('completionMsg').textContent=msgs[Math.floor(Math.random()*msgs.length)];
+    }
+
+    function resetExercise(){
+        document.getElementById('sessionComplete').classList.remove('active');
+        if(selectedTechnique)selectTechnique(selectedTechnique);
+        window.scrollTo({top:0,behavior:'smooth'});
+    }
+
+    // Init
+    loadSessions();renderTracker();renderTechniques();renderTips();
+
+    // PWA Service Worker
+    if('serviceWorker' in navigator){navigator.serviceWorker.register('/sw.js').catch(()=>{});}
+    </script>
+</body>
+</html>
