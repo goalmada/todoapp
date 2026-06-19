@@ -28,6 +28,36 @@ class Phase(str, Enum):
 
 
 @dataclass
+class GoalEvent:
+    """A single goal scored during the match."""
+
+    minute: int
+    team: str
+    player: str
+    assist: str = ""
+    detail: str = ""  # "Normal Goal", "Penalty", "Own Goal"
+
+
+@dataclass
+class GroupStanding:
+    """A single team's standing within a World Cup group."""
+
+    team: str
+    team_id: int
+    group: str
+    rank: int
+    played: int
+    won: int
+    drawn: int
+    lost: int
+    goals_for: int
+    goals_against: int
+    goal_diff: int
+    points: int
+    form: str = ""
+
+
+@dataclass
 class KeyPlayer:
     name: str
     position: str = ""
@@ -86,6 +116,7 @@ class MatchState:
     home_score: int = 0
     away_score: int = 0
     is_knockout: bool = False
+    goals: list[GoalEvent] = field(default_factory=list)
 
     # ----- derived clock helpers -----
     @property

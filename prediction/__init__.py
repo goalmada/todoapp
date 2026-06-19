@@ -7,6 +7,8 @@ media sentiment. See ``docs/soccer_prediction_scope.md`` for the full scope.
 
 from .schema import (
     Phase,
+    GoalEvent,
+    GroupStanding,
     KeyPlayer,
     MediaSentiment,
     TeamProfile,
@@ -21,6 +23,8 @@ from .transport import make_anthropic_llm_call
 
 __all__ = [
     "Phase",
+    "GoalEvent",
+    "GroupStanding",
     "KeyPlayer",
     "MediaSentiment",
     "TeamProfile",
