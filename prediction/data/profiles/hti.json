@@ -1,0 +1,32 @@
+{
+  "team": "Haiti",
+  "iso3": "HTI",
+  "fifa_rank": 83,
+  "fifa_points": 1293.0,
+  "as_of": "2026-06-11",
+  "style": "Resilient, transition-focused side under Sebastien Migne built on a deep, compact defensive block and quick counters rather than sustained build-up. Squad drawn almost entirely from a France- and Belgium-developed diaspora.",
+  "recent_form": "Reached the World Cup for the first time since 1974, ending a 52-year drought via CONCACAF qualifying. Drawn into a brutal Group C with Brazil, Morocco and Scotland.",
+  "strength_index": 50,
+  "key_players": [
+    { "name": "Wilson Isidor", "position": "FW", "role": "primary striker", "note": "Sunderland forward and main attacking focal point; switched allegiance from France and made an immediate impact, described as among the best players Haiti have produced." },
+    { "name": "Jean-Ricner Bellegarde", "position": "MF", "role": "central midfielder", "note": "Wolverhampton Wanderers midfielder and Premier League regular since moving from Strasbourg; key quality switch from France." },
+    { "name": "Duckens Nazon", "position": "FW", "role": "veteran scorer", "note": "Les Grenadiers' all-time leading scorer with 44 goals in 74 caps; experienced finisher." },
+    { "name": "Johny Placide", "position": "GK", "role": "goalkeeper", "note": "Experienced keeper and a key figure behind Haiti's defensive structure." }
+  ],
+  "historical_news": [
+    "First World Cup appearance since 1974, ending a 52-year wait for Les Grenadiers.",
+    "Among the lowest-ranked teams in the field per the 11 June 2026 FIFA ranking.",
+    "Diaspora-built squad (only Woodensky Pierre plays his football in Haiti), with several players switching from France for this campaign.",
+    "Face a daunting Group C against Brazil, Morocco and Scotland."
+  ],
+  "media_sentiment": {
+    "label": "positive",
+    "confidence": 0.55,
+    "summary": "Emotional coverage of a historic return after five decades and the rise of a diaspora-led squad, balanced against the toughest of group draws."
+  },
+  "sources": [
+    "https://www.fourfourtwo.com/team/haiti-world-cup-2026-squad",
+    "https://worldsoccertalk.com/world-cup/haiti-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/",
+    "https://bolavip.com/en/world-cup/haitis-fifa-ranking-at-the-2026-world-cup-more-about-scotland-brazil-and-moroccos-group-opponent"
+  ]
+}

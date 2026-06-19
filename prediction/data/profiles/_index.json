@@ -90,6 +90,12 @@
     "fifa_rank": 16
   },
   {
+    "team": "USA",
+    "iso3": "USA",
+    "file": "usa.json",
+    "fifa_rank": 17
+  },
+  {
     "team": "Japan",
     "iso3": "JPN",
     "file": "jpn.json",
@@ -114,16 +120,34 @@
     "fifa_rank": 22
   },
   {
+    "team": "Ecuador",
+    "iso3": "ECU",
+    "file": "ecu.json",
+    "fifa_rank": 23
+  },
+  {
     "team": "Austria",
     "iso3": "AUT",
     "file": "aut.json",
     "fifa_rank": 24
   },
   {
+    "team": "Korea Republic",
+    "iso3": "KOR",
+    "file": "kor.json",
+    "fifa_rank": 25
+  },
+  {
     "team": "Australia",
     "iso3": "AUS",
     "file": "aus.json",
     "fifa_rank": 27
+  },
+  {
+    "team": "Algeria",
+    "iso3": "DZA",
+    "file": "dza.json",
+    "fifa_rank": 28
   },
   {
     "team": "Egypt",
@@ -222,6 +246,12 @@
     "fifa_rank": 61
   },
   {
+    "team": "Jordan",
+    "iso3": "JOR",
+    "file": "jor.json",
+    "fifa_rank": 63
+  },
+  {
     "team": "Bosnia and Herzegovina",
     "iso3": "BIH",
     "file": "bih.json",
@@ -238,5 +268,23 @@
     "iso3": "GHA",
     "file": "gha.json",
     "fifa_rank": 73
+  },
+  {
+    "team": "Curacao",
+    "iso3": "CUW",
+    "file": "cuw.json",
+    "fifa_rank": 82
+  },
+  {
+    "team": "Haiti",
+    "iso3": "HTI",
+    "file": "hti.json",
+    "fifa_rank": 83
+  },
+  {
+    "team": "New Zealand",
+    "iso3": "NZL",
+    "file": "nzl.json",
+    "fifa_rank": 85
   }
 ]
