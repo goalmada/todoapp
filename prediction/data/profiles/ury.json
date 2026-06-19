@@ -1,0 +1,32 @@
+{
+  "team": "Uruguay",
+  "iso3": "URY",
+  "fifa_rank": 16,
+  "fifa_points": null,
+  "as_of": "2026-06-11",
+  "style": "Intense, high-energy football under Marcelo Bielsa. Aggressive man-oriented pressing, vertical attacking and relentless work rate layered over Uruguay's traditional defensive grit and tactical fouling. Built around a powerful midfield and clinical forwards.",
+  "recent_form": "Solid and competitive. Finished fourth in CONMEBOL qualifying with the best defensive record in the group (just 12 goals conceded in 18 matches), reflecting Bielsa's structure. A strong, well-drilled side with a blend of elite talent and depth.",
+  "strength_index": 76,
+  "key_players": [
+    { "name": "Federico Valverde", "position": "MF", "role": "midfield engine / leader", "note": "Real Madrid box-to-box midfielder, the heartbeat of the side; pressing intensity, late runs and long-range shooting make him uniquely dangerous." },
+    { "name": "Ronald Araujo", "position": "DF", "role": "centre-back / defensive leader", "note": "Barcelona defender anchoring the back line with strength, pace and leadership." },
+    { "name": "Darwin Nunez", "position": "FW", "role": "centre-forward", "note": "Al-Hilal striker and Uruguay's top qualifying scorer with five goals; relentless runner with explosive finishing when sharp." },
+    { "name": "Giorgian De Arrascaeta", "position": "MF", "role": "attacking midfielder / creator", "note": "Flamengo playmaker providing the creative link and final-third quality behind the strikers." },
+    { "name": "Manuel Ugarte", "position": "MF", "role": "defensive midfielder", "note": "Manchester United ball-winner who shields the defense and powers Bielsa's press." },
+    { "name": "Fernando Muslera", "position": "GK", "role": "goalkeeper", "note": "Veteran returning from international retirement for a fifth World Cup; set to become Uruguay's most-capped World Cup player." }
+  ],
+  "historical_news": [
+    "Two-time World Champions (1930 as inaugural hosts, and 1950 in the 'Maracanazo' upset of Brazil), giants of early football history.",
+    "Reached the 2010 World Cup semifinals in South Africa, their best modern finish, led by Diego Forlan and Luis Suarez.",
+    "Luis Suarez's controversial deliberate handball against Ghana in 2010 remains one of the tournament's most infamous moments.",
+    "End of the legendary Suarez-Cavani era and a generational handover toward the Valverde-Nunez-Araujo core.",
+    "Marcelo Bielsa appointed in 2023 to modernize and re-energize the national team with his high-press philosophy.",
+    "Reached the 2024 Copa America semifinals, signaling renewed ambition under Bielsa."
+  ],
+  "media_sentiment": { "label": "neutral", "confidence": 0.6, "summary": "Cautiously positive; respected as a well-organized Bielsa side with elite individuals, but viewed as a dark horse rather than a favorite, with questions over attacking consistency." },
+  "sources": [
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/marcelo-bielsa-s-official-uruguay-squad-for-the-2026-fifa-world-cup-2026-05-31",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-uruguay-players-squad-key-stats-schedule",
+    "https://www.espn.com/soccer/story/_/id/46664763/fifa-mens-top-50-world-rankings"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "team": "Iraq",
+  "iso3": "IRQ",
+  "fifa_rank": 57,
+  "fifa_points": 1446.28,
+  "as_of": "2026-06-11",
+  "style": "Organized, combative side under Graham Arnold built on defensive solidity and a clear focal point in target striker Aymen Hussein. Looks to play direct and use Ali Jasim's creativity in transition; physically committed but limited depth of attacking quality.",
+  "recent_form": "Reached their first World Cup since 1986 after winning the intercontinental playoff final against Bolivia, with Aymen Hussein scoring the decisive goal. Lost a 2-0 friendly to Venezuela in Chicago on June 10, dropping to 57th.",
+  "strength_index": 56,
+  "key_players": [
+    { "name": "Aymen Hussein", "position": "FW", "role": "target striker", "note": "Top scorer in Asian qualifying with eight goals and scorer of the playoff winner v Bolivia; the team's main attacking outlet." },
+    { "name": "Ali Al-Hamadi", "position": "FW", "role": "forward", "note": "First Iraqi to play in the Premier League (Ipswich Town); pace and finishing to complement Hussein." },
+    { "name": "Ali Jasim", "position": "FW", "role": "creative winger", "note": "Creative spark on the flank who headlines the squad's attacking talent." },
+    { "name": "Amir Al-Ammari", "position": "MF", "role": "playmaking midfielder", "note": "Midfield string-puller who dictates tempo and links defence to attack." },
+    { "name": "Jalal Hassan", "position": "GK", "role": "captain / goalkeeper", "note": "Captain and leader of the team from between the posts." }
+  ],
+  "historical_news": [
+    "Returned to the World Cup for the first time since 1986, a 40-year absence.",
+    "Sealed qualification by winning the intercontinental playoff final against Bolivia.",
+    "Aymen Hussein scored both the playoff winner and topped Asian qualifying with eight goals.",
+    "Coached by Australian Graham Arnold into the finals.",
+    "Drawn into Group I, where they are the lowest-ranked side, facing Norway, France and others."
+  ],
+  "media_sentiment": { "label": "positive", "confidence": 0.6, "summary": "Jubilant Iraqi sentiment over ending a four-decade World Cup wait, with national pride centered on Aymen Hussein; tempered realism after the pre-tournament loss to Venezuela and being the lowest seed in their group." },
+  "sources": [
+    "https://worldsoccertalk.com/world-cup/world-cup-2026-what-is-iraqs-current-fifa-world-ranking/",
+    "https://www.iraqinews.com/iraq/iraq-football-live-fifa-ranking-drop-venezuela-loss-2026/",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-iraq-players-squad-list-key-stats-schedule",
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/graham-arnold-s-official-iraq-squad-for-the-2026-fifa-world-cup-2026-06-01"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "team": "Germany",
+  "iso3": "DEU",
+  "fifa_rank": 10,
+  "fifa_points": null,
+  "as_of": "2026-06-11",
+  "style": "Modern, high-pressing, possession football under Julian Nagelsmann. Built around a creative Musiala-Wirtz axis, Germany combine quick positional rotations, vertical passing and aggressive counter-pressing. Joshua Kimmich orchestrates from a deep midfield role.",
+  "recent_form": "Younger and more technically exciting than in recent cycles, carrying momentum from a strong Euro 2024 on home soil. Concerns center on Jamal Musiala's fitness after a serious injury, though Nagelsmann insists he remains world-class even below peak.",
+  "strength_index": 82,
+  "key_players": [
+    { "name": "Jamal Musiala", "position": "MF", "role": "attacking midfielder", "note": "Bayern Munich's 23-year-old dribbler; Germany's most unpredictable attacker. Returning from serious injury, his form could define how far they go." },
+    { "name": "Florian Wirtz", "position": "MF", "role": "attacking midfielder / creator", "note": "Liverpool playmaker at his first World Cup; among the best attacking mids in the world, scored the opening goal of Euro 2024." },
+    { "name": "Joshua Kimmich", "position": "MF", "role": "captain / deep midfielder", "note": "Bayern leader who anchors midfield and sets tempo; versatile enough to fill full-back if needed." },
+    { "name": "Kai Havertz", "position": "FW", "role": "centre-forward", "note": "Arsenal forward offering hold-up play, movement and goal threat as the focal point of the attack." },
+    { "name": "Manuel Neuer", "position": "GK", "role": "starting goalkeeper", "note": "40-year-old reversed retirement for his fifth and final World Cup; sweeper-keeper experience but mobility/age a risk." },
+    { "name": "Nick Woltemade", "position": "FW", "role": "backup / impact striker", "note": "Newcastle's tall striker provides an aerial Plan B and depth up front." }
+  ],
+  "historical_news": [
+    "Four-time World Champions (1954, 1974, 1990, 2014), one of the most decorated nations in the sport.",
+    "Won the 2014 World Cup in Brazil, including the historic 7-1 semifinal demolition of the hosts.",
+    "Shock group-stage exits at both the 2018 and 2022 World Cups marked a prolonged decline for the Nationalmannschaft.",
+    "Resurgence narrative built on the Musiala-Wirtz generation that lit up Euro 2024 on home soil under Nagelsmann.",
+    "Manuel Neuer's surprise return from retirement at age 40 for a fifth World Cup became a major storyline.",
+    "Pressure on Nagelsmann to restore Germany to the elite after consecutive tournament humiliations."
+  ],
+  "media_sentiment": { "label": "positive", "confidence": 0.6, "summary": "Optimism around a youthful, exciting attack and Euro 2024 momentum, tempered by anxiety over Musiala's fitness and an aging Neuer in goal." },
+  "sources": [
+    "https://www.espn.com/soccer/story/_/id/46664763/fifa-mens-top-50-world-rankings",
+    "https://www.deutschland.de/en/topic/life/football-germany-national-team-squad-world-cup-26-america",
+    "https://www.fourfourtwo.com/team/germany-world-cup-2026-squad"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "team": "USA",
+  "iso3": "USA",
+  "fifa_rank": 17,
+  "fifa_points": null,
+  "as_of": "2026-06-11",
+  "style": "Energetic, athletic and increasingly tactical under Mauricio Pochettino. The USMNT press aggressively, transition quickly and lean on a core of European-based talent. Built around Pulisic's wide creativity, a hard-working midfield and pace in the final third.",
+  "recent_form": "Co-hosts carrying home-tournament pressure and expectation. A squad evenly split between Qatar 2022 veterans and World Cup debutants, with striker Folarin Balogun the most in-form attacker. Opened their Group D campaign against Paraguay at SoFi Stadium.",
+  "strength_index": 74,
+  "key_players": [
+    { "name": "Christian Pulisic", "position": "FW", "role": "captain / talisman", "note": "AC Milan forward and most-capped attacker (84+ caps); the team's leading creator and on-field leader, decisive from the left." },
+    { "name": "Weston McKennie", "position": "MF", "role": "box-to-box midfielder", "note": "Juventus do-it-all midfielder who covers ground, contributes goals and drives the central engine." },
+    { "name": "Tyler Adams", "position": "MF", "role": "defensive midfielder / leader", "note": "Tenacious ball-winner who anchors midfield and sets the pressing tone; a vocal leader." },
+    { "name": "Folarin Balogun", "position": "FW", "role": "centre-forward", "note": "Most in-form USMNT attacker entering the tournament, scoring in nine of his last 11 Ligue 1 matches; expected to start up top." },
+    { "name": "Tim Weah", "position": "FW", "role": "wide forward", "note": "Pacey wide attacker and Qatar 2022 scorer offering directness and width." },
+    { "name": "Haji Wright", "position": "FW", "role": "forward / impact option", "note": "Physical striker and Qatar 2022 scorer providing a different attacking profile off the bench or in rotation." }
+  ],
+  "historical_news": [
+    "Co-hosts of the 2026 World Cup alongside Canada and Mexico, with home advantage and unprecedented national attention.",
+    "Reached the World Cup quarterfinals in 2002, their best modern finish, before a controversial exit to Germany.",
+    "Failed to qualify for the 2018 World Cup, a national low point that triggered a rebuild around a young 'golden generation'.",
+    "Reached the round of 16 at the 2022 World Cup in Qatar before losing to the Netherlands.",
+    "Hired Mauricio Pochettino to bring elite tactical pedigree and raise expectations for the home tournament.",
+    "Pressure narrative: a talented but inconsistent generation expected to deliver a deep run on home soil."
+  ],
+  "media_sentiment": { "label": "neutral", "confidence": 0.6, "summary": "Mixed-to-hopeful; home advantage and Pochettino's pedigree fuel optimism, but inconsistent results and a young core leave doubts about how deep they can go." },
+  "sources": [
+    "https://www.aljazeera.com/sports/2026/5/27/pulisic-and-adams-lead-us-26-man-world-cup-squad",
+    "https://www.espn.com/soccer/story/_/id/48882389/usa-2026-world-cup-roster-christian-pulisic-squad-mckennie-adams",
+    "https://www.espn.com/soccer/story/_/id/46664763/fifa-mens-top-50-world-rankings"
+  ]
+}

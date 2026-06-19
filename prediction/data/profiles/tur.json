@@ -1,0 +1,35 @@
+{
+  "team": "Türkiye",
+  "iso3": "TUR",
+  "fifa_rank": 22,
+  "fifa_points": null,
+  "as_of": "2026-06-11",
+  "style": "Vincenzo Montella's fluid 4-2-3-1 with a loose, interchangeable front four. Hakan Calhanoglu and Ismail Yuksek provide the base, while Arda Guler roams to find pockets of space and technical forwards rotate freely. Possession-based and technically rich, built around young creators.",
+  "recent_form": "Back at the World Cup for the first time since 2002 after a strong cycle under Montella (roughly 59% win rate). Buoyed by the rise of Guler and Yildiz; high expectations after reaching the Euro 2024 quarter-finals.",
+  "strength_index": 68,
+  "key_players": [
+    { "name": "Hakan Calhanoglu", "position": "DM", "role": "captain / deep playmaker", "note": "Inter Milan midfielder who controls tempo, sets the base of midfield and delivers set pieces." },
+    { "name": "Arda Guler", "position": "AM", "role": "creative talisman", "note": "Real Madrid playmaker in exceptional 2025-26 form; given license to roam and create chances." },
+    { "name": "Kenan Yildiz", "position": "LW", "role": "attacking spark", "note": "Juventus forward and one of Europe's most exciting young players; direct and incisive in the final third." },
+    { "name": "Merih Demiral", "position": "CB", "role": "defensive leader", "note": "Experienced, aggressive centre-back anchoring the back line." },
+    { "name": "Kerem Akturkoglu", "position": "LW", "role": "wide forward", "note": "Pacey, goal-threat winger who rotates within the fluid front four." },
+    { "name": "Ferdi Kadioglu", "position": "LB", "role": "attacking full-back", "note": "Mobile full-back who provides width and overlaps to support the attack." }
+  ],
+  "historical_news": [
+    "Türkiye returns to the World Cup after a 24-year absence, last appearing in 2002 when they finished third.",
+    "Vincenzo Montella guided the team to qualification and to the Euro 2024 quarter-finals.",
+    "Young stars Arda Guler and Kenan Yildiz, neither born at Türkiye's last World Cup, headline a new generation.",
+    "Captain Hakan Calhanoglu provides veteran leadership for a youthful, attacking side.",
+    "Squad blends emerging talent with Serie A and European experience under Montella."
+  ],
+  "media_sentiment": {
+    "label": "positive",
+    "confidence": 0.62,
+    "summary": "Excitement over a talented young generation and a long-awaited return to the World Cup, with optimism tempered by defensive consistency questions."
+  },
+  "sources": [
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/turkiye-preliminary-world-cup-squad-announced",
+    "https://www.squawka.com/en/news/world-cup/turkey-world-cup-2026-fixtures-squad-analysis/",
+    "https://www.turkiyetoday.com/sports/turkiye-names-26-man-squad-for-2026-fifa-world-cup-after-final-cuts-3221129"
+  ]
+}

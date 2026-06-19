@@ -1,0 +1,31 @@
+{
+  "team": "Scotland",
+  "iso3": "SCO",
+  "fifa_rank": 40,
+  "fifa_points": 1503.34,
+  "as_of": "2026-06-11",
+  "style": "Organized, hard-working 3-4-2-1/3-5-2 under Steve Clarke built on defensive compactness, energy in midfield and quick transitions. Dangerous from set pieces and from late-arriving runners; relies on wing-backs for width and on McTominay's box arrivals for goals.",
+  "recent_form": "Qualified for first World Cup since 1998 after a strong UEFA campaign capped by a 4-2 win over Denmark. Positive friendly results in the build-up (incl. 4-1 v Curacao), but lost key midfielder Billy Gilmour to injury just before the tournament.",
+  "strength_index": 63,
+  "key_players": [
+    { "name": "Scott McTominay", "position": "MF", "role": "box-to-box midfielder", "note": "2024-25 Serie A standout at Napoli; arrives from the box for goals, scored a decisive bicycle kick v Denmark in qualifying." },
+    { "name": "Andy Robertson", "position": "DF", "role": "captain / left wing-back", "note": "Liverpool full-back and most-capped squad member (92 caps); leadership and overlapping width." },
+    { "name": "John McGinn", "position": "MF", "role": "energetic midfielder", "note": "Aston Villa captain with 85 caps; drives runs from midfield and chips in with goals." },
+    { "name": "Ross Stewart", "position": "FW", "role": "central striker", "note": "Recalled to lead the line; physical focal point for crosses and set pieces." },
+    { "name": "Craig Gordon", "position": "GK", "role": "experienced goalkeeper", "note": "Veteran shot-stopper providing calm and experience between the posts." }
+  ],
+  "historical_news": [
+    "Qualified for their first World Cup since 1998, ending a 28-year absence from the finals.",
+    "Drawn into a tough Group C; opened against Haiti before facing Morocco and heavyweights Brazil.",
+    "Billy Gilmour ruled out by injury just before the tournament, replaced by Man United teenager Tyler Fletcher.",
+    "Scott McTominay's transformation at Napoli (Serie A Player of the Year 2024-25) headlines the squad's rise.",
+    "Steve Clarke's long tenure has delivered consecutive major-tournament qualifications and record optimism for a knockout run."
+  ],
+  "media_sentiment": { "label": "positive", "confidence": 0.7, "summary": "Buoyant Scottish media after ending a long World Cup drought; high hopes pinned on McTominay and Robertson, tempered by the Gilmour injury and a daunting group containing Brazil." },
+  "sources": [
+    "https://www.espn.com/soccer/story/_/id/46664763/fifa-mens-top-50-world-rankings",
+    "https://bolavip.com/en/world-cup/scotlands-fifa-ranking-as-they-share-2026-world-cup-group-with-brazil-morocco-and-haiti",
+    "https://www.espn.com/soccer/story/_/id/48814281/scotland-world-cup-squad-announced-scott-mctominay-ross-stewart",
+    "https://worldsoccertalk.com/world-cup/scotland-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/"
+  ]
+}

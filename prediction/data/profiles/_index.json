@@ -1,0 +1,242 @@
+[
+  {
+    "team": "Argentina",
+    "iso3": "ARG",
+    "file": "arg.json",
+    "fifa_rank": 1
+  },
+  {
+    "team": "Spain",
+    "iso3": "ESP",
+    "file": "esp.json",
+    "fifa_rank": 2
+  },
+  {
+    "team": "France",
+    "iso3": "FRA",
+    "file": "fra.json",
+    "fifa_rank": 3
+  },
+  {
+    "team": "England",
+    "iso3": "ENG",
+    "file": "eng.json",
+    "fifa_rank": 4
+  },
+  {
+    "team": "Portugal",
+    "iso3": "POR",
+    "file": "por.json",
+    "fifa_rank": 5
+  },
+  {
+    "team": "Brazil",
+    "iso3": "BRA",
+    "file": "bra.json",
+    "fifa_rank": 6
+  },
+  {
+    "team": "Morocco",
+    "iso3": "MAR",
+    "file": "mar.json",
+    "fifa_rank": 7
+  },
+  {
+    "team": "Netherlands",
+    "iso3": "NLD",
+    "file": "nld.json",
+    "fifa_rank": 7
+  },
+  {
+    "team": "Belgium",
+    "iso3": "BEL",
+    "file": "bel.json",
+    "fifa_rank": 9
+  },
+  {
+    "team": "Germany",
+    "iso3": "DEU",
+    "file": "deu.json",
+    "fifa_rank": 10
+  },
+  {
+    "team": "Croatia",
+    "iso3": "HRV",
+    "file": "hrv.json",
+    "fifa_rank": 11
+  },
+  {
+    "team": "Colombia",
+    "iso3": "COL",
+    "file": "col.json",
+    "fifa_rank": 13
+  },
+  {
+    "team": "Mexico",
+    "iso3": "MEX",
+    "file": "mex.json",
+    "fifa_rank": 14
+  },
+  {
+    "team": "Senegal",
+    "iso3": "SEN",
+    "file": "sen.json",
+    "fifa_rank": 15
+  },
+  {
+    "team": "Uruguay",
+    "iso3": "URY",
+    "file": "ury.json",
+    "fifa_rank": 16
+  },
+  {
+    "team": "Japan",
+    "iso3": "JPN",
+    "file": "jpn.json",
+    "fifa_rank": 18
+  },
+  {
+    "team": "Switzerland",
+    "iso3": "CHE",
+    "file": "che.json",
+    "fifa_rank": 19
+  },
+  {
+    "team": "IR Iran",
+    "iso3": "IRN",
+    "file": "irn.json",
+    "fifa_rank": 20
+  },
+  {
+    "team": "Türkiye",
+    "iso3": "TUR",
+    "file": "tur.json",
+    "fifa_rank": 22
+  },
+  {
+    "team": "Austria",
+    "iso3": "AUT",
+    "file": "aut.json",
+    "fifa_rank": 24
+  },
+  {
+    "team": "Australia",
+    "iso3": "AUS",
+    "file": "aus.json",
+    "fifa_rank": 27
+  },
+  {
+    "team": "Egypt",
+    "iso3": "EGY",
+    "file": "egy.json",
+    "fifa_rank": 29
+  },
+  {
+    "team": "Canada",
+    "iso3": "CAN",
+    "file": "can.json",
+    "fifa_rank": 30
+  },
+  {
+    "team": "Norway",
+    "iso3": "NOR",
+    "file": "nor.json",
+    "fifa_rank": 31
+  },
+  {
+    "team": "Côte d'Ivoire",
+    "iso3": "CIV",
+    "file": "civ.json",
+    "fifa_rank": 33
+  },
+  {
+    "team": "Panama",
+    "iso3": "PAN",
+    "file": "pan.json",
+    "fifa_rank": 34
+  },
+  {
+    "team": "Sweden",
+    "iso3": "SWE",
+    "file": "swe.json",
+    "fifa_rank": 38
+  },
+  {
+    "team": "Scotland",
+    "iso3": "SCO",
+    "file": "sco.json",
+    "fifa_rank": 40
+  },
+  {
+    "team": "Czechia",
+    "iso3": "CZE",
+    "file": "cze.json",
+    "fifa_rank": 41
+  },
+  {
+    "team": "Paraguay",
+    "iso3": "PRY",
+    "file": "pry.json",
+    "fifa_rank": 42
+  },
+  {
+    "team": "Tunisia",
+    "iso3": "TUN",
+    "file": "tun.json",
+    "fifa_rank": 45
+  },
+  {
+    "team": "Congo DR",
+    "iso3": "COD",
+    "file": "cod.json",
+    "fifa_rank": 46
+  },
+  {
+    "team": "Uzbekistan",
+    "iso3": "UZB",
+    "file": "uzb.json",
+    "fifa_rank": 50
+  },
+  {
+    "team": "Qatar",
+    "iso3": "QAT",
+    "file": "qat.json",
+    "fifa_rank": 56
+  },
+  {
+    "team": "Iraq",
+    "iso3": "IRQ",
+    "file": "irq.json",
+    "fifa_rank": 57
+  },
+  {
+    "team": "South Africa",
+    "iso3": "ZAF",
+    "file": "zaf.json",
+    "fifa_rank": 60
+  },
+  {
+    "team": "Saudi Arabia",
+    "iso3": "SAU",
+    "file": "sau.json",
+    "fifa_rank": 61
+  },
+  {
+    "team": "Bosnia and Herzegovina",
+    "iso3": "BIH",
+    "file": "bih.json",
+    "fifa_rank": 64
+  },
+  {
+    "team": "Cabo Verde",
+    "iso3": "CPV",
+    "file": "cpv.json",
+    "fifa_rank": 67
+  },
+  {
+    "team": "Ghana",
+    "iso3": "GHA",
+    "file": "gha.json",
+    "fifa_rank": 73
+  }
+]

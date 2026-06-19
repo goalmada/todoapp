@@ -1,0 +1,30 @@
+{
+  "team": "IR Iran",
+  "iso3": "IRN",
+  "fifa_rank": 20,
+  "fifa_points": 1619.58,
+  "as_of": "2026-06-11",
+  "style": "Defensively organised and disciplined under Amir Ghalenoei, Asia's second-highest-ranked side absorbs pressure in a compact block and counters through Taremi's hold-up play and wide runners.",
+  "recent_form": "Comfortable AFC qualification as one of Asia's most consistent teams. Enter as the highest-ranked side in their group behind only Japan among Asian nations.",
+  "strength_index": 79,
+  "key_players": [
+    { "name": "Mehdi Taremi", "position": "FW", "role": "focal-point striker", "note": "Olympiacos forward and undisputed attacking focal point; 60+ international goals with European pedigree from Porto and Inter." },
+    { "name": "Alireza Jahanbakhsh", "position": "FW", "role": "captain, winger", "note": "Leads from wide areas; former Eredivisie top scorer with Premier League and Feyenoord experience." },
+    { "name": "Mehdi Ghayedi", "position": "FW", "role": "attacker", "note": "Pacey, direct forward adding width and a goal threat in transition." },
+    { "name": "Saeid Ezatolahi", "position": "MF", "role": "defensive midfielder", "note": "Physical screening midfielder providing balance in front of the back line." },
+    { "name": "Alireza Beiranvand", "position": "GK", "role": "goalkeeper", "note": "Experienced, commanding shot-stopper and long-time national number one." }
+  ],
+  "historical_news": [
+    "Iran enter as the second-highest-ranked Asian side, behind only Japan.",
+    "Sardar Azmoun omitted from the squad amid reports of a fallout with authorities.",
+    "Coach Amir Ghalenoei named a squad built around veterans Taremi and Jahanbakhsh.",
+    "Drawn in Group G with Belgium, Egypt and New Zealand.",
+    "Taremi, with 60+ international goals, central to Iran's hopes of a first knockout-stage run."
+  ],
+  "media_sentiment": { "label": "neutral", "confidence": 0.6, "summary": "Respect for Iran's ranking and defensive solidity mixed with debate over the Azmoun omission and perennial questions about converting solid play into a knockout breakthrough." },
+  "sources": [
+    "https://worldsoccertalk.com/world-cup/world-cup-2026-what-is-irans-current-fifa-world-ranking/",
+    "https://www.flashscore.com/news/soccer-world-championship-taremi-and-jahanbakhsh-lead-iran-s-world-cup-squad-with-azmoun-overlooked/pGYQ1OUq/",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/ir-iran-squad-named"
+  ]
+}

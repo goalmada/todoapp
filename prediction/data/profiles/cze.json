@@ -1,0 +1,32 @@
+{
+  "team": "Czechia",
+  "iso3": "CZE",
+  "fifa_rank": 41,
+  "fifa_points": 1505.74,
+  "as_of": "2026-06-11",
+  "style": "Disciplined 4-2-3-1 under Miroslav Koubek built on a compact low block and quick transitions. Exceptional aerial and set-piece threat (led all European nations with eight set-piece goals in qualifying), spearheaded by the towering Schick and Soucek.",
+  "recent_form": "Reached the finals through UEFA qualifying. Opened the World Cup with a 2-1 defeat to South Korea in Group A, with South Africa and Mexico still to come.",
+  "strength_index": 62,
+  "key_players": [
+    { "name": "Patrik Schick", "position": "FW", "role": "target striker", "note": "Bayer Leverkusen marksman and Czechia's go-to goalscorer; lethal in the air and the focal point of attacks." },
+    { "name": "Tomas Soucek", "position": "MF", "role": "box-to-box anchor", "note": "West Ham midfielder providing the spine; huge aerial threat on set pieces at both ends." },
+    { "name": "Ladislav Krejci", "position": "DF", "role": "captain / centre-back", "note": "Captains the side and organizes the back line; comfortable bringing the ball out." },
+    { "name": "Robin Hranac", "position": "DF", "role": "centre-back", "note": "Hoffenheim defender; part of a compact central defensive unit." },
+    { "name": "Matej Kovar", "position": "GK", "role": "goalkeeper", "note": "First-choice keeper anchoring the low block." },
+    { "name": "Tomas Holes", "position": "MF", "role": "defensive midfielder / defender", "note": "Versatile, hard-working presence ahead of the defence." }
+  ],
+  "historical_news": [
+    "Qualified for the 2026 World Cup via the UEFA route under coach Miroslav Koubek.",
+    "Led all European nations with eight set-piece goals during qualifying, underlining their dead-ball strength.",
+    "Opened the tournament with a 2-1 loss to South Korea in Group A.",
+    "Drawn in Group A alongside Mexico, South Korea and South Africa.",
+    "Squad heavily reliant on the Schick-Soucek axis after the gradual departure of the previous golden generation."
+  ],
+  "media_sentiment": { "label": "neutral", "confidence": 0.6, "summary": "Measured expectations in Czech media: respected for organization and set-piece prowess but seen as lacking star depth; the opening loss to South Korea raised pressure to recover against South Africa and Mexico." },
+  "sources": [
+    "https://bolavip.com/en/world-cup/czechias-fifa-ranking-during-the-2026-world-cup",
+    "https://worldsoccertalk.com/world-cup/world-cup-2026-what-is-the-czech-republics-current-fifa-world-ranking/",
+    "https://worldsoccertalk.com/world-cup/czechia-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/",
+    "https://www.uefa.com/european-qualifiers/news/02a6-20d15945d06d-c1587a40d2a4-1000--czechia-at-the-world-cup-2026-squad-fixtures-group-and-hi/"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "team": "Paraguay",
+  "iso3": "PRY",
+  "fifa_rank": 42,
+  "fifa_points": 1505.0,
+  "as_of": "2026-06-11",
+  "style": "Resolute, defensively solid South American side under Gustavo Alfaro, built around a strong centre-back core, physicality and organisation, with directness and threat on transitions through experienced attackers.",
+  "recent_form": "Returned to the World Cup for the first time since 2010 after a steadying CONMEBOL qualifying run under Alfaro. Drawn in Group D against co-hosts USA, Australia and Turkiye.",
+  "strength_index": 57,
+  "key_players": [
+    { "name": "Gustavo Gomez", "position": "DF", "role": "captain, centre-back", "note": "Palmeiras centre-back and squad captain; aerially dominant leader who anchors a disciplined defence." },
+    { "name": "Miguel Almiron", "position": "MF", "role": "creative leader, top scorer", "note": "Atlanta United winger with 75 caps; squad's leading scorer, 10 goal involvements in MLS last season after returning from Newcastle." },
+    { "name": "Antonio Sanabria", "position": "FW", "role": "centre-forward", "note": "Fulcrum of the attack; scored four goals in qualifying despite limited starts." },
+    { "name": "Julio Enciso", "position": "FW", "role": "attacking threat", "note": "Brighton-developed forward providing pace and unpredictability in the final third." },
+    { "name": "Diego Gomez", "position": "MF", "role": "box-to-box midfielder", "note": "Brighton midfielder adding energy, drive and goal threat from deep." },
+    { "name": "Omar Alderete", "position": "DF", "role": "centre-back", "note": "Premier League-linked defender who partners Gustavo Gomez in central defence." }
+  ],
+  "historical_news": [
+    "First World Cup appearance since South Africa 2010 for La Albirroja.",
+    "Squad assembled by Gustavo Alfaro with a Brazil-heavy and MLS contingent.",
+    "Open their tournament in Group D against co-hosts USA, Australia and Turkiye."
+  ],
+  "media_sentiment": {
+    "label": "neutral",
+    "confidence": 0.55,
+    "summary": "Coverage praises Alfaro's defensive rebuild and the return to the finals while questioning a lack of cutting edge up front in a competitive group."
+  },
+  "sources": [
+    "https://www.espn.com/soccer/story/_/id/46664763/fifa-mens-top-50-world-rankings",
+    "https://worldsoccertalk.com/world-cup/paraguay-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/",
+    "https://khelnow.com/football/world-football-paraguay-squad-fifa-world-cup-202606"
+  ]
+}

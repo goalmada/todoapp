@@ -1,0 +1,31 @@
+{
+  "team": "Canada",
+  "iso3": "CAN",
+  "fifa_rank": 30,
+  "fifa_points": 1559.48,
+  "as_of": "2026-06-11",
+  "style": "High-energy, aggressive transition team under Jesse Marsch, pressing intensely and attacking with pace down the flanks. Direct, vertical play built to exploit space behind opposition defences.",
+  "recent_form": "Co-hosts entering the World Cup with momentum and home advantage. Opened Group B but managing an Alphonso Davies hamstring injury that affected his availability for the opener.",
+  "strength_index": 70,
+  "key_players": [
+    { "name": "Alphonso Davies", "position": "DF", "role": "captain, left-back/winger", "note": "Bayern Munich star and the face of Canadian football; explosive pace, though hampered by a hamstring injury at the tournament." },
+    { "name": "Jonathan David", "position": "FW", "role": "striker", "note": "Juventus forward and Canada's all-time leading scorer; clinical focal point of the attack." },
+    { "name": "Stephen Eustáquio", "position": "MF", "role": "vice-captain, deep-lying midfielder", "note": "Provides stability, tempo control and leadership in midfield." },
+    { "name": "Tajon Buchanan", "position": "FW", "role": "winger", "note": "Versatile flank attacker with pace, creativity and directness on either side." },
+    { "name": "Alistair Johnston", "position": "DF", "role": "right-back", "note": "Energetic, defensively reliable full-back who contributes going forward." },
+    { "name": "Moïse Bombito", "position": "DF", "role": "centre-back", "note": "Athletic, physical defender expected to play a major role at the back." }
+  ],
+  "historical_news": [
+    "Canada is co-hosting the 2026 World Cup alongside the USA and Mexico.",
+    "Alphonso Davies captains the side but battled a hamstring injury into the tournament.",
+    "Jonathan David enters as Canada's all-time leading scorer after moving to Juventus.",
+    "Jesse Marsch leads an ambitious side aiming to progress beyond the group stage on home soil.",
+    "Canada drawn in Group B, opening against Bosnia and Herzegovina."
+  ],
+  "media_sentiment": { "label": "positive", "confidence": 0.6, "summary": "Hopeful tone driven by home advantage and a talented attacking core, tempered by concern over Davies's fitness." },
+  "sources": [
+    "https://worldsoccertalk.com/world-cup/world-cup-2026-what-is-canada-current-fifa-world-ranking/",
+    "https://sports.yahoo.com/articles/inside-canadas-world-cup-roster-131912133.html",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/canada-squad-announcement"
+  ]
+}

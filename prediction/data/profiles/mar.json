@@ -1,0 +1,32 @@
+{
+  "team": "Morocco",
+  "iso3": "MAR",
+  "fifa_rank": 7,
+  "fifa_points": 1756.94,
+  "as_of": "2026-06-11",
+  "style": "Compact, disciplined defensive block that springs into rapid transitions. Under Mohamed Ouahbi, Morocco defend deep and narrow, then attack with the pace of Hakimi down the right and the creativity of Brahim Diaz centrally. Physical, organized and dangerous on the counter and from set pieces.",
+  "recent_form": "Africa's top-ranked side and at their best-ever FIFA position (7th officially, briefly 6th in live rankings during the World Cup). Reached the AFCON 2025 final and qualified for the World Cup with a perfect record: eight wins from eight, zero draws, zero defeats.",
+  "strength_index": 86,
+  "key_players": [
+    { "name": "Achraf Hakimi", "position": "DF", "role": "captain / attacking right-back", "note": "PSG full-back, Africa's reigning best player and 2025 Champions League winner; Morocco's most dangerous wide threat and driving force." },
+    { "name": "Brahim Diaz", "position": "MF", "role": "creative midfielder / playmaker", "note": "Real Madrid attacker and creative engine; AFCON 2025 top scorer with five goals, scoring in every group match." },
+    { "name": "Yassine Bounou", "position": "GK", "role": "starting goalkeeper", "note": "Al-Hilal keeper, hero of the 2022 run; commanding shot-stopper and penalty specialist." },
+    { "name": "Nayef Aguerd", "position": "DF", "role": "centre-back", "note": "Core of the 2022 generation; aggressive, aerially strong defender anchoring the back line." },
+    { "name": "Sofyan Amrabat", "position": "MF", "role": "defensive midfielder", "note": "Ball-winning midfield shield who protects the back four and breaks up play." },
+    { "name": "Bilal El Khannouss", "position": "MF", "role": "advanced midfielder", "note": "VfB Stuttgart talent adding youthful creativity and dribbling between the lines." }
+  ],
+  "historical_news": [
+    "First African and first Arab nation to reach a World Cup semifinal (2022 in Qatar), finishing fourth.",
+    "On the 2022 run they eliminated Belgium, Spain and Portugal, becoming a symbol of pride across Africa and the Arab world.",
+    "Achieved their best-ever FIFA ranking in 2026, becoming the top-ranked nation in both Africa and the Arab world.",
+    "Reached the AFCON 2025 final, confirming their status as the continent's standard-bearers.",
+    "Perfect CAF qualifying campaign for 2026: eight wins from eight matches with no draws or defeats.",
+    "Co-hosts of the 2030 World Cup, fueling a wave of investment and expectation around the Atlas Lions."
+  ],
+  "media_sentiment": { "label": "positive", "confidence": 0.75, "summary": "Strongly positive; widely viewed as the best African side and genuine dark horses to go deep again, riding historic ranking highs and a settled, talented core." },
+  "sources": [
+    "https://www.moroccoworldnews.com/2026/06/321362/morocco-rise-to-historic-6th-place-in-live-fifa-ranking-after-portugal-draw/",
+    "https://www.espn.com/espn/story/_/id/48883710/achraf-hakimi-brahim-diaz-headline-morocco-squad-fifa-world-cup-youssef-en-nesyri-out",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-morocco-all-players-full-squad-list-key-stats-schedule"
+  ]
+}

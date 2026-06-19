@@ -1,0 +1,31 @@
+{
+  "team": "Panama",
+  "iso3": "PAN",
+  "fifa_rank": 34,
+  "fifa_points": 1539.16,
+  "as_of": "2026-06-11",
+  "style": "Disciplined, counter-attacking CONCACAF side under Thomas Christiansen. Sit deep, defend in numbers and strike quickly on the break through clinical forwards and the creativity of Carrasquilla.",
+  "recent_form": "Reached the World Cup and opened Group L with a 0-1 loss to Ghana, leaving them with work to do against England and Croatia. Competitive in recent CONCACAF play.",
+  "strength_index": 67,
+  "key_players": [
+    { "name": "Adalberto Carrasquilla", "position": "MF", "role": "playmaker, creative hub", "note": "Panama's most technically gifted midfielder and engine; dictates tempo and supplies the forwards." },
+    { "name": "Aníbal Godoy", "position": "MF", "role": "captain, midfielder", "note": "Panama's most-capped player ever with 159 appearances; veteran leader and midfield organiser." },
+    { "name": "Michael Amir Murillo", "position": "DF", "role": "right-back", "note": "Besiktas full-back and the team's main attacking outlet down the right." },
+    { "name": "José Fajardo", "position": "FW", "role": "striker", "note": "Clinical finisher who scores in bunches in CONCACAF competition." },
+    { "name": "Ismael Díaz", "position": "FW", "role": "forward", "note": "Sharp, mobile attacker offering goal threat on the counter." },
+    { "name": "Cecilio Waterman", "position": "FW", "role": "forward", "note": "Direct striker with recent scoring form for the national team." }
+  ],
+  "historical_news": [
+    "Panama opened Group L with a 0-1 defeat to Ghana.",
+    "Drawn in a tough Group L alongside England, Croatia and Ghana.",
+    "Captain Aníbal Godoy is Panama's most-capped player of all time with 159 appearances.",
+    "Carrasquilla regarded as one of the most technically gifted midfielders in CONCACAF.",
+    "Coached by Thomas Christiansen, relying on a counter-attacking blueprint."
+  ],
+  "media_sentiment": { "label": "neutral", "confidence": 0.57, "summary": "Cautious outlook after an opening loss; admired for organisation and counter-attacking but facing long odds in a strong group." },
+  "sources": [
+    "https://bolavip.com/en/amp/world-cup/whats-panamas-fifa-ranking-at-the-2026-world-cup",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-panama-all-players-full-squad-list-key-stats-and-schedule",
+    "https://worldsoccertalk.com/world-cup/panama-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/"
+  ]
+}

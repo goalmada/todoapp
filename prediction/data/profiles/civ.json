@@ -1,0 +1,30 @@
+{
+  "team": "Côte d'Ivoire",
+  "iso3": "CIV",
+  "fifa_rank": 33,
+  "fifa_points": 1540.87,
+  "as_of": "2026-06-11",
+  "style": "Physical, athletic side that dominates midfield through power and presses high. Under Emerse Fae they blend a robust spine with electric wide attackers who attack one-on-one and in transition.",
+  "recent_form": "Reigning AFCON champions returning to the World Cup for the first time in 12 years after topping their CAF qualifying group ahead of Gabon. Strong recent results built on the AFCON-winning core.",
+  "strength_index": 68,
+  "key_players": [
+    { "name": "Franck Kessie", "position": "MF", "role": "captain, box-to-box midfielder", "note": "Experienced leader providing physicality, drive and goals from midfield." },
+    { "name": "Amad Diallo", "position": "FW", "role": "winger", "note": "Manchester United attacker; electric, two-footed and coming off his best club season." },
+    { "name": "Ibrahim Sangare", "position": "MF", "role": "defensive midfielder", "note": "Physical, ball-winning shield in front of the defence." },
+    { "name": "Nicolas Pepe", "position": "FW", "role": "winger", "note": "Former Arsenal man and first-choice on the opposite flank; direct and unpredictable." },
+    { "name": "Yan Diomandé", "position": "FW", "role": "forward", "note": "RB Leipzig's coveted young attacker, one of Europe's most sought-after prospects." }
+  ],
+  "historical_news": [
+    "Reigning African champions after winning AFCON on home soil.",
+    "Returning to the World Cup for the first time in 12 years.",
+    "Topped CAF qualifying group ahead of Gabon under coach Emerse Fae.",
+    "Drawn in Group E alongside Germany, Ecuador and Curaçao.",
+    "AFCON hero Sebastien Haller left out of the main World Cup squad."
+  ],
+  "media_sentiment": { "label": "positive", "confidence": 0.6, "summary": "Buoyant mood as continental champions return to the global stage with a talented young core, though a difficult group with Germany tempers expectations." },
+  "sources": [
+    "https://bolavip.com/en/world-cup/ivory-coasts-fifa-ranking-in-2026-world-cup-more-about-group-e-participant",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-cote-ivoire-all-players-full-squad-list-key-stats-schedule",
+    "https://worldsoccertalk.com/world-cup/ivory-coast-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "team": "Qatar",
+  "iso3": "QAT",
+  "fifa_rank": 56,
+  "fifa_points": 1450.31,
+  "as_of": "2026-06-11",
+  "style": "Technical, possession-oriented Asian side under Julen Lopetegui that builds patiently and looks to combine through Afif and Almoez Ali in the final third. Compact defensively with experienced AFC core; can lack a physical edge against bigger opponents.",
+  "recent_form": "Back-to-back AFC Asian Cup winners and qualified through the AFC route. Almoez Ali was the top scorer in Asian qualifying with 12 goals, underlining their attacking reliability.",
+  "strength_index": 56,
+  "key_players": [
+    { "name": "Akram Afif", "position": "FW", "role": "creative winger", "note": "Qatar's brightest attacking talent and chief creator; mainstay since their 2022 home debut, playing for Al-Sadd." },
+    { "name": "Almoez Ali", "position": "FW", "role": "striker", "note": "Qatar's all-time top scorer (60 goals) and top scorer in Asian World Cup qualifying with 12 goals; the focal point up front." },
+    { "name": "Hassan Al-Haydos", "position": "FW", "role": "captain", "note": "Most-capped player (188 caps) at 35; leader and link man, plays for Al-Sadd." },
+    { "name": "Boualem Khoukhi", "position": "DF", "role": "centre-back", "note": "Experienced defensive mainstay who played every minute of the 2022 home World Cup." },
+    { "name": "Karim Boudiaf", "position": "MF", "role": "defensive midfielder", "note": "Al-Duhail anchor providing balance and cover in front of the back line." }
+  ],
+  "historical_news": [
+    "Qualified for the 2026 World Cup via the AFC route, their first World Cup appearance away from home.",
+    "Hired Julen Lopetegui to lead the team into the tournament.",
+    "Almoez Ali topped Asian World Cup qualifying scoring with 12 goals.",
+    "Reigning multiple-time AFC Asian Cup champions bring continuity and tournament pedigree.",
+    "Drawn into Group B alongside Canada, Switzerland and Bosnia and Herzegovina."
+  ],
+  "media_sentiment": { "label": "neutral", "confidence": 0.55, "summary": "Cautiously hopeful coverage: regional pride in a continued golden era under Lopetegui and faith in Afif and Almoez Ali, tempered by a difficult European-heavy group and questions about competing against stronger sides abroad." },
+  "sources": [
+    "https://bolavip.com/en/world-cup/qatars-fifa-ranking-more-about-canadas-2026-world-cup-group-b-opponent",
+    "https://worldsoccertalk.com/world-cup/world-cup-2026-what-is-qatar-current-fifa-world-ranking/",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-qatar-all-players-full-squad-list-key-stats-and-schedule",
+    "https://www.fourfourtwo.com/team/qatar-world-cup-2026-squad"
+  ]
+}

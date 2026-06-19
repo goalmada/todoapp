@@ -1,0 +1,32 @@
+{
+  "team": "Congo DR",
+  "iso3": "COD",
+  "fifa_rank": 46,
+  "fifa_points": 1474.43,
+  "as_of": "2026-06-11",
+  "style": "Defensively disciplined Leopards built on a formidable centre-back block and rapid counter-attacks. Under Sebastien Desabre they prioritise structure over possession in a 4-2-3-1 / 4-3-3, bypassing midfield with long passes to release pacey forwards.",
+  "recent_form": "Returned to the World Cup after 52 years, qualifying via the playoffs with a winning goal from Axel Tuanzebe against Jamaica. Opened Group K by holding Portugal, with Yoane Wissa scoring in a historic result.",
+  "strength_index": 56,
+  "key_players": [
+    { "name": "Chancel Mbemba", "position": "DF", "role": "captain, leader", "note": "National caps record-holder (107); commanding centre-back and the emotional and tactical leader of the side." },
+    { "name": "Yoane Wissa", "position": "FW", "role": "attacking spearhead", "note": "Newcastle United forward and the Leopards' dangerman: fast and clinical, scored against Portugal in the group opener." },
+    { "name": "Cedric Bakambu", "position": "FW", "role": "veteran striker", "note": "Real Betis forward and squad's leading scorer (21 international goals); experienced finisher." },
+    { "name": "Axel Tuanzebe", "position": "DF", "role": "centre-back", "note": "Burnley defender who scored the decisive playoff goal vs Jamaica; partners Mbemba in a sturdy defensive block." },
+    { "name": "Aaron Wan-Bissaka", "position": "DF", "role": "right-back", "note": "West Ham United full-back providing Premier League pace and one-v-one defending down the flank." }
+  ],
+  "historical_news": [
+    "Back at the World Cup for the first time since 1974, when they competed as Zaire.",
+    "Qualified through the playoffs with a Tuanzebe goal against Jamaica.",
+    "Drew with Portugal in their Group K opener, with Wissa making history by scoring against Cristiano Ronaldo's side."
+  ],
+  "media_sentiment": {
+    "label": "positive",
+    "confidence": 0.6,
+    "summary": "Strong narrative around a 52-year wait ending and a resilient, talented squad; the opening result against Portugal generated significant positive coverage."
+  },
+  "sources": [
+    "https://worldsoccertalk.com/world-cup/dr-congo-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/",
+    "https://worldcuppass.com/dr-congo-world-cup-squad-2026/",
+    "https://www.aljazeera.com/sports/liveblog/2026/6/17/live-portugal-vs-dr-congo-world-cup-2026"
+  ]
+}

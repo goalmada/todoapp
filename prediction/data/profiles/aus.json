@@ -1,0 +1,31 @@
+{
+  "team": "Australia",
+  "iso3": "AUS",
+  "fifa_rank": 27,
+  "fifa_points": 1574.0,
+  "as_of": "2026-06-11",
+  "style": "Organised, hard-working and physically committed under Tony Popovic. Defensively disciplined with set-piece threat from tall defenders, transitioning quickly through energetic midfield runners and pacey wide players.",
+  "recent_form": "Qualified via the AFC pathway and arrive with a settled squad mixing experienced World Cup campaigners and emerging talent. Solid but unspectacular form heading into the tournament.",
+  "strength_index": 73,
+  "key_players": [
+    { "name": "Maty Ryan", "position": "GK", "role": "captain, goalkeeper", "note": "Vastly experienced number one and team leader; reliable shot-stopper and organiser." },
+    { "name": "Jackson Irvine", "position": "MF", "role": "central midfielder", "note": "Combative engine in midfield, set to feature at his third World Cup." },
+    { "name": "Jordan Bos", "position": "DF", "role": "left-back/wing-back", "note": "Attacking full-back who pushes into the box while keeping defensive duties." },
+    { "name": "Harry Souttar", "position": "DF", "role": "centre-back", "note": "Towering defender and major aerial threat at both ends from set pieces." },
+    { "name": "Alessandro Circati", "position": "DF", "role": "centre-back", "note": "Composed young centre-back anchoring the back line." },
+    { "name": "Nestory Irankunda", "position": "FW", "role": "winger", "note": "Pacey, direct attacker offering flair and a goal threat off the flank." }
+  ],
+  "historical_news": [
+    "Veterans Aziz Behich, Milos Degenek and Jackson Irvine set to appear at their third World Cup.",
+    "50-cap forward Mitch Duke retired internationally before the squad departed pre-camp.",
+    "Socceroos drawn in Group D alongside the USA.",
+    "Squad blends experienced campaigners with a new generation including Irankunda, Bos and Circati.",
+    "Eight players departed before the squad left its Sarasota pre-camp."
+  ],
+  "media_sentiment": { "label": "neutral", "confidence": 0.58, "summary": "Measured expectations; respected for organisation and resilience but viewed as needing the right breaks against stronger group rivals to advance." },
+  "sources": [
+    "https://bolavip.com/en/world-cup/whats-australias-fifa-ranking-at-the-2026-world-cup-the-socceroos-share-group-d-with-usa",
+    "https://www.espn.com/soccer/story/_/id/48927212/socceroos-depth-chart-australias-squad-2026-world-cup",
+    "https://footballaustralia.com.au/news/commbank-socceroos-squad-named-fifa-world-cup-2026tm"
+  ]
+}

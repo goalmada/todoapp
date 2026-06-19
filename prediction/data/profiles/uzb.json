@@ -1,0 +1,30 @@
+{
+  "team": "Uzbekistan",
+  "iso3": "UZB",
+  "fifa_rank": 50,
+  "fifa_points": 1458.0,
+  "as_of": "2026-06-11",
+  "style": "Pragmatic, counter-attacking side that defends in a compact mid-block and springs forward through a creative attacking core. Comfortable ceding possession to stronger opponents and exploiting transitions, with set pieces a notable weapon.",
+  "recent_form": "Entered their first-ever World Cup as Group K underdogs alongside Portugal, Colombia and DR Congo after a landmark Asian qualifying campaign. Form modest against elite opposition but disciplined defensively.",
+  "strength_index": 56,
+  "key_players": [
+    { "name": "Eldor Shomurodov", "position": "FW", "role": "captain, talisman", "note": "All-time top scorer (44 goals in 92 caps). Joint-top scorer in the Turkish league in 2025-26 on loan at Istanbul Basaksehir; Serie A pedigree with Roma, Genoa and Cagliari." },
+    { "name": "Abdukodir Khusanov", "position": "DF", "role": "centre-back, prize asset", "note": "Manchester City centre-back, first Uzbek in the Premier League after a ~40m euro move from Lens. Pace and top-level experience anchor the backline." },
+    { "name": "Abbosbek Fayzullaev", "position": "MF", "role": "attacking midfielder, creator", "note": "22-year-old at Istanbul Basaksehir; dynamic, creative hub who links play and supplies Shomurodov on the break." }
+  ],
+  "historical_news": [
+    "Making their first-ever FIFA World Cup appearance, one of the headline newcomers of the expanded 2026 tournament.",
+    "Drawn in Group K with Portugal, Colombia and DR Congo, cast as clear underdogs.",
+    "Lost an early-tournament meeting with Colombia, a result that helped lift Colombia to 11th in the FIFA ranking."
+  ],
+  "media_sentiment": {
+    "label": "positive",
+    "confidence": 0.6,
+    "summary": "Coverage celebrates a historic debut and Uzbekistan's golden generation led by Khusanov and Shomurodov, while tempering expectations against a tough group."
+  },
+  "sources": [
+    "https://worldsoccertalk.com/world-cup/uzbekistan-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/",
+    "https://www.espn.com/soccer/story/_/id/46664763/fifa-mens-top-50-world-rankings",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-uzbekistan-all-players-full-squad-list-key-stats-schedule"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "team": "Tunisia",
+  "iso3": "TUN",
+  "fifa_rank": 45,
+  "fifa_points": 1476.41,
+  "as_of": "2026-06-11",
+  "style": "Compact, defensively resolute side that frustrates opponents and looks to strike on set pieces and quick counters. Under Sabri Lamouchi, organised out of possession with a rejuvenated, energetic midfield.",
+  "recent_form": "Qualified comfortably from CAF Group H. New coach Lamouchi took over in January 2026 and has refreshed the squad, blending experience with younger profiles ahead of the tournament.",
+  "strength_index": 58,
+  "key_players": [
+    { "name": "Ellyes Skhiri", "position": "MF", "role": "captain, central midfielder", "note": "Eintracht Frankfurt midfielder and the most significant cog in midfield; the only Tunisian to play Champions League football this season." },
+    { "name": "Hannibal Mejbri", "position": "MF", "role": "attacking midfielder", "note": "Burnley man forming an efficient midfield partnership with Achouri; energetic and creative." },
+    { "name": "Elias Achouri", "position": "MF", "role": "midfield engine", "note": "FC Copenhagen midfielder who drives the team's tempo and link play." },
+    { "name": "Aymen Dahmen", "position": "GK", "role": "goalkeeper", "note": "Consistent shot-stopper who has been reliable for the national team in recent years." },
+    { "name": "Ismael Gharbi", "position": "MF", "role": "creative midfielder", "note": "21-year-old PSG academy product, mesmerising on the ball with skills and tricks." },
+    { "name": "Youssef Msakni", "position": "FW", "role": "veteran forward", "note": "Tunisia's second-most-capped player and third-highest scorer; experienced wide attacker." }
+  ],
+  "historical_news": [
+    "Sabri Lamouchi took over as head coach in January 2026 and reshaped the squad.",
+    "Tunisia drawn in a tough group with the Netherlands, Japan and Sweden.",
+    "Captain Ellyes Skhiri the only Tunisian to feature in the Champions League this season.",
+    "Lamouchi placed trust in newer, younger player profiles for the World Cup.",
+    "Veteran Youssef Msakni recalled despite being absent from the recent AFCON squad."
+  ],
+  "media_sentiment": { "label": "neutral", "confidence": 0.55, "summary": "Modest expectations given the low ranking and a brutal group draw, though the new coach's rebuild and Skhiri's leadership offer cautious encouragement." },
+  "sources": [
+    "https://bolavip.com/en/world-cup/tunisias-fifa-ranking-whats-their-position-during-the-2026-world-cup",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-tunisia-players-full-squad-list-key-stats-schedule",
+    "https://www.fourfourtwo.com/team/tunisia-world-cup-2026-squad"
+  ]
+}

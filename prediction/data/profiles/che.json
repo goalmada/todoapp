@@ -1,0 +1,36 @@
+{
+  "team": "Switzerland",
+  "iso3": "CHE",
+  "fifa_rank": 19,
+  "fifa_points": null,
+  "as_of": "2026-06-11",
+  "style": "Compact, defensively disciplined side under Murat Yakin that closes central spaces and frustrates opponents. Granit Xhaka dictates tempo from a deep double pivot with Remo Freuler; attacks flow on the counter through the pace of wide forwards Dan Ndoye and Ruben Vargas.",
+  "recent_form": "Qualified with an elite defensive record, conceding just two goals across the campaign. Solid, well-organised and pragmatic heading into the tournament; in Group B with Qatar, Bosnia and Herzegovina, and Canada.",
+  "strength_index": 73,
+  "key_players": [
+    { "name": "Granit Xhaka", "position": "CM", "role": "captain / deep playmaker", "note": "33-year-old metronome who organises possession from deep and sets the team's tempo with high-volume accurate passing." },
+    { "name": "Manuel Akanji", "position": "CB", "role": "defensive leader", "note": "Inter Milan centre-back who anchors the defence and brings composure building out from the back." },
+    { "name": "Breel Embolo", "position": "ST", "role": "main striker", "note": "Squad's top scorer with 25 international goals; carries the main goalscoring burden with physicality and movement." },
+    { "name": "Gregor Kobel", "position": "GK", "role": "starting goalkeeper", "note": "Borussia Dortmund keeper, among the most reputable goalkeepers in the tournament." },
+    { "name": "Dan Ndoye", "position": "RW", "role": "wide threat", "note": "Pacey winger used to exploit space on the counter-attack." },
+    { "name": "Ruben Vargas", "position": "LW", "role": "wide threat", "note": "Direct wide forward who stretches defences and provides width in transition." },
+    { "name": "Remo Freuler", "position": "CM", "role": "central pivot", "note": "Industrious midfielder forming the double pivot alongside Xhaka." }
+  ],
+  "historical_news": [
+    "Murat Yakin's side built one of the meanest defences in qualifying, conceding only two goals.",
+    "Captain Granit Xhaka remains the heartbeat of the team after a long, accomplished club career.",
+    "Switzerland has reached the World Cup knockout stage in multiple recent tournaments, including the Euro 2020 upset of France.",
+    "Squad blends Premier League and Bundesliga regulars with a strong Inter Milan / Dortmund spine.",
+    "Drawn into Group B with co-host Canada, Qatar and Bosnia and Herzegovina."
+  ],
+  "media_sentiment": {
+    "label": "neutral",
+    "confidence": 0.6,
+    "summary": "Respected as solid and hard to beat but viewed as lacking a top-tier attacking edge; seen as a likely group-stage qualifier rather than a contender."
+  },
+  "sources": [
+    "https://worldsoccertalk.com/world-cup/switzerland-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/",
+    "https://www.uefa.com/european-qualifiers/news/02a6-20d1595c1b77-996be0df685e-1000--switzerland-at-the-world-cup-2026-squad-fixtures-group-a/",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/switzerland-squad-announcement-murat-yakin"
+  ]
+}
