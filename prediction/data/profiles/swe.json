@@ -2,17 +2,42 @@
   "team": "Sweden",
   "iso3": "SWE",
   "fifa_rank": 38,
-  "fifa_points": null,
+  "fifa_points": 1509.79,
   "as_of": "2026-06-11",
   "style": "Graham Potter's pragmatic 4-4-2 / 4-2-3-1 with structured defending and vertical, direct attacks. Wide forwards stretch high defensive lines to feed an elite strike pairing; the side leans on transition speed and the individual quality of its forwards rather than sustained possession.",
   "recent_form": "Dramatic turnaround under Potter, who took over in October 2025 with Sweden on one point from four qualifiers and steered them through, sealing a place via a 3-2 playoff win over Poland. Form trending up after a chaotic qualifying ride; in Group F with Tunisia, Netherlands and Japan.",
   "strength_index": 60,
   "key_players": [
-    { "name": "Alexander Isak", "position": "ST", "role": "lead striker", "note": "Liverpool forward who leads the line with elite movement and finishing; one half of a fearsome strike pairing." },
-    { "name": "Viktor Gyokeres", "position": "ST", "role": "striker", "note": "Arsenal striker offering power, runs in behind and prolific scoring; forms an elite duo with Isak." },
-    { "name": "Anthony Elanga", "position": "RW", "role": "wide forward", "note": "Newcastle winger providing pace and width to stretch high defensive lines." },
-    { "name": "Victor Lindelof", "position": "CB", "role": "captain / defensive leader", "note": "Experienced centre-back organising the back line and bringing composure." },
-    { "name": "Emil Forsberg", "position": "AM", "role": "creator", "note": "Veteran playmaker supplying creativity and set-piece delivery behind the strikers." }
+    {
+      "name": "Alexander Isak",
+      "position": "ST",
+      "role": "lead striker",
+      "note": "Liverpool forward who leads the line with elite movement and finishing; one half of a fearsome strike pairing."
+    },
+    {
+      "name": "Viktor Gyokeres",
+      "position": "ST",
+      "role": "striker",
+      "note": "Arsenal striker offering power, runs in behind and prolific scoring; forms an elite duo with Isak."
+    },
+    {
+      "name": "Anthony Elanga",
+      "position": "RW",
+      "role": "wide forward",
+      "note": "Newcastle winger providing pace and width to stretch high defensive lines."
+    },
+    {
+      "name": "Victor Lindelof",
+      "position": "CB",
+      "role": "captain / defensive leader",
+      "note": "Experienced centre-back organising the back line and bringing composure."
+    },
+    {
+      "name": "Emil Forsberg",
+      "position": "AM",
+      "role": "creator",
+      "note": "Veteran playmaker supplying creativity and set-piece delivery behind the strikers."
+    }
   ],
   "historical_news": [
     "Graham Potter engineered one of the great recent qualifying turnarounds, rescuing Sweden from one point in four games to reach the finals.",

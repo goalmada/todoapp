@@ -2,18 +2,48 @@
   "team": "Norway",
   "iso3": "NOR",
   "fifa_rank": 31,
-  "fifa_points": null,
+  "fifa_points": 1557.44,
   "as_of": "2026-06-11",
   "style": "Stale Solbakken's fluid 4-2-3-1 / 4-3-3 built on an ego-free culture where every player tracks back defensively. In possession the side plays vertically to exploit Erling Haaland's pace and finishing, with Martin Odegaard orchestrating between the lines.",
   "recent_form": "Excellent. Norway qualified with a perfect record of eight wins in eight, scoring a UEFA-leading 37 goals (Haaland alone netting 16). One of Europe's in-form sides entering their first World Cup since 1998.",
   "strength_index": 64,
   "key_players": [
-    { "name": "Erling Haaland", "position": "ST", "role": "lead striker", "note": "Manchester City forward and nation's all-time top scorer (55 goals); scored 16 in qualifying, the focal point of every attack." },
-    { "name": "Martin Odegaard", "position": "AM", "role": "captain / playmaker", "note": "Arsenal midfielder who orchestrates the attack and links midfield to Haaland between the lines." },
-    { "name": "Alexander Sorloth", "position": "ST", "role": "forward", "note": "Powerful striker providing an alternative aerial and target-man threat up front." },
-    { "name": "Antonio Nusa", "position": "LW", "role": "wide attacker", "note": "Young, direct winger offering dribbling and pace on the flank." },
-    { "name": "Oscar Bobb", "position": "RW", "role": "wide attacker", "note": "Technical, creative winger adding width and chance creation." },
-    { "name": "Sander Berge", "position": "CM", "role": "central midfielder", "note": "Tall, all-action midfielder providing balance and ball progression." }
+    {
+      "name": "Erling Haaland",
+      "position": "ST",
+      "role": "lead striker",
+      "note": "Manchester City forward and nation's all-time top scorer (55 goals); scored 16 in qualifying, the focal point of every attack."
+    },
+    {
+      "name": "Martin Odegaard",
+      "position": "AM",
+      "role": "captain / playmaker",
+      "note": "Arsenal midfielder who orchestrates the attack and links midfield to Haaland between the lines."
+    },
+    {
+      "name": "Alexander Sorloth",
+      "position": "ST",
+      "role": "forward",
+      "note": "Powerful striker providing an alternative aerial and target-man threat up front."
+    },
+    {
+      "name": "Antonio Nusa",
+      "position": "LW",
+      "role": "wide attacker",
+      "note": "Young, direct winger offering dribbling and pace on the flank."
+    },
+    {
+      "name": "Oscar Bobb",
+      "position": "RW",
+      "role": "wide attacker",
+      "note": "Technical, creative winger adding width and chance creation."
+    },
+    {
+      "name": "Sander Berge",
+      "position": "CM",
+      "role": "central midfielder",
+      "note": "Tall, all-action midfielder providing balance and ball progression."
+    }
   ],
   "historical_news": [
     "Norway returns to the World Cup after a 28-year absence, last appearing in 1998.",

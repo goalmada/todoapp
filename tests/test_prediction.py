@@ -15,6 +15,7 @@ from prediction.schema import (  # noqa: E402
 )
 from prediction.deterministic import baseline_prediction  # noqa: E402
 from prediction.llm_adjuster import adjust_prediction, MAX_ADJUSTMENT  # noqa: E402
+from prediction.transport import make_anthropic_llm_call  # noqa: E402
 
 
 def _ctx(home_rank, away_rank, state):
@@ -110,6 +111,33 @@ def test_hybrid_adjustment_is_bounded():
     assert hybrid.home_win < 0.75, "must not be talked into near-certainty"
     assert hybrid.source == "hybrid"
     assert hybrid.baseline is not None
+
+
+def test_transport_returns_none_without_key():
+    import os
+    old = os.environ.pop("ANTHROPIC_API_KEY", None)
+    try:
+        assert make_anthropic_llm_call() is None
+    finally:
+        if old is not None:
+            os.environ["ANTHROPIC_API_KEY"] = old
+
+
+def test_hybrid_with_transport_degrades_gracefully():
+    """Without an API key the transport returns None, so adjust_prediction
+    falls back to the deterministic baseline without errors."""
+    import os
+    old = os.environ.pop("ANTHROPIC_API_KEY", None)
+    try:
+        llm_call = make_anthropic_llm_call()
+        ctx = _ctx(1, 40, MatchState(phase=Phase.PRE_MATCH))
+        base = baseline_prediction(ctx)
+        hybrid = adjust_prediction(ctx, llm_call=llm_call)
+        assert (hybrid.home_win, hybrid.draw, hybrid.away_win) == (
+            base.home_win, base.draw, base.away_win)
+    finally:
+        if old is not None:
+            os.environ["ANTHROPIC_API_KEY"] = old
 
 
 if __name__ == "__main__":

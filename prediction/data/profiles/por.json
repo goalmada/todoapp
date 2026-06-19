@@ -2,18 +2,48 @@
   "team": "Portugal",
   "iso3": "POR",
   "fifa_rank": 5,
-  "fifa_points": null,
+  "fifa_points": 1767.85,
   "as_of": "2026-06-11",
   "style": "Possession-oriented and creative through a Champions League-laden midfield, with set-piece threat and a veteran box presence up top.",
   "recent_form": "Reigning Nations League champions and FIFA's fifth-ranked side; opened the group stage with a 1-1 draw against DR Congo.",
   "strength_index": 90,
   "key_players": [
-    { "name": "Cristiano Ronaldo", "position": "ST", "role": "Captain, all-time scorer", "note": "At 41, appearing in a record sixth World Cup; all-time leading men's international scorer." },
-    { "name": "Bruno Fernandes", "position": "CAM/CM", "role": "Creative engine", "note": "Carries the creative load, takes set pieces and penalties; central to everything Martinez builds." },
-    { "name": "Vitinha", "position": "CM", "role": "Midfield metronome", "note": "Arrives off a Champions League win with PSG; controls midfield rhythm." },
-    { "name": "Nuno Mendes", "position": "LB", "role": "Attacking full-back", "note": "Champions League winner providing pace and overlap down the left." },
-    { "name": "Joao Neves", "position": "CM", "role": "Two-way midfielder", "note": "Energetic PSG midfielder linking defence and attack." },
-    { "name": "Goncalo Ramos", "position": "ST", "role": "Forward option", "note": "Clinical PSG striker offering a mobile alternative to Ronaldo." }
+    {
+      "name": "Cristiano Ronaldo",
+      "position": "ST",
+      "role": "Captain, all-time scorer",
+      "note": "At 41, appearing in a record sixth World Cup; all-time leading men's international scorer."
+    },
+    {
+      "name": "Bruno Fernandes",
+      "position": "CAM/CM",
+      "role": "Creative engine",
+      "note": "Carries the creative load, takes set pieces and penalties; central to everything Martinez builds."
+    },
+    {
+      "name": "Vitinha",
+      "position": "CM",
+      "role": "Midfield metronome",
+      "note": "Arrives off a Champions League win with PSG; controls midfield rhythm."
+    },
+    {
+      "name": "Nuno Mendes",
+      "position": "LB",
+      "role": "Attacking full-back",
+      "note": "Champions League winner providing pace and overlap down the left."
+    },
+    {
+      "name": "Joao Neves",
+      "position": "CM",
+      "role": "Two-way midfielder",
+      "note": "Energetic PSG midfielder linking defence and attack."
+    },
+    {
+      "name": "Goncalo Ramos",
+      "position": "ST",
+      "role": "Forward option",
+      "note": "Clinical PSG striker offering a mobile alternative to Ronaldo."
+    }
   ],
   "historical_news": [
     "Euro 2016 and UEFA Nations League champions, but never a World Cup title.",
@@ -22,7 +52,11 @@
     "Recurring debate over balancing Ronaldo with a deep, youthful supporting cast.",
     "History of underperforming knockout expectations despite elite talent."
   ],
-  "media_sentiment": { "label": "positive", "confidence": 0.7, "summary": "Seen as dark-horse contenders with elite depth, though an opening draw drew some criticism." },
+  "media_sentiment": {
+    "label": "positive",
+    "confidence": 0.7,
+    "summary": "Seen as dark-horse contenders with elite depth, though an opening draw drew some criticism."
+  },
   "sources": [
     "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/cristiano-ronaldo-roberto-martinez-portugal-squad-announcement",
     "https://www.olympics.com/en/news/fifa-world-cup-2026-portugal-all-players-full-squad-list-key-stats-and-schedule",

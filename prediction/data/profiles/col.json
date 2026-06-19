@@ -2,18 +2,48 @@
   "team": "Colombia",
   "iso3": "COL",
   "fifa_rank": 13,
-  "fifa_points": null,
+  "fifa_points": 1698.35,
   "as_of": "2026-06-11",
   "style": "Technical, possession-oriented South American football that blends patient build-up with quick wide attacks. Colombia funnel play through James Rodriguez's vision and unleash Luis Diaz's directness and dribbling on the flank. Comfortable controlling games but capable of incisive transitions.",
   "recent_form": "In good shape entering the tournament. Finished a solid CONMEBOL qualifying campaign and opened the World Cup with a 3-1 win over Uzbekistan, a result that pushed them up the live FIFA ranking. Blend of veteran leadership and explosive attacking talent.",
   "strength_index": 79,
   "key_players": [
-    { "name": "Luis Diaz", "position": "FW", "role": "left winger / primary threat", "note": "Bayern Munich winger in sensational form; led Colombia's qualifying with seven goals. Direct, fast and decisive in one-v-one situations." },
-    { "name": "James Rodriguez", "position": "MF", "role": "captain / playmaker", "note": "34-year-old all-time World Cup leading scorer for Colombia; provided a confederation-best seven assists in qualifying. Creative hub and set-piece taker." },
-    { "name": "David Ospina", "position": "GK", "role": "starting goalkeeper", "note": "Veteran keeper at his fourth World Cup; calm, experienced presence between the posts." },
-    { "name": "Jhon Duran", "position": "FW", "role": "centre-forward", "note": "Powerful young striker offering pace and physicality as the central focal point of the attack." },
-    { "name": "Richard Rios", "position": "MF", "role": "central midfielder", "note": "Energetic, ball-progressing midfielder who has become a key part of the engine room." },
-    { "name": "Daniel Munoz", "position": "DF", "role": "right-back / wing-back", "note": "Crystal Palace full-back providing attacking thrust and aggression down the right." }
+    {
+      "name": "Luis Diaz",
+      "position": "FW",
+      "role": "left winger / primary threat",
+      "note": "Bayern Munich winger in sensational form; led Colombia's qualifying with seven goals. Direct, fast and decisive in one-v-one situations."
+    },
+    {
+      "name": "James Rodriguez",
+      "position": "MF",
+      "role": "captain / playmaker",
+      "note": "34-year-old all-time World Cup leading scorer for Colombia; provided a confederation-best seven assists in qualifying. Creative hub and set-piece taker."
+    },
+    {
+      "name": "David Ospina",
+      "position": "GK",
+      "role": "starting goalkeeper",
+      "note": "Veteran keeper at his fourth World Cup; calm, experienced presence between the posts."
+    },
+    {
+      "name": "Jhon Duran",
+      "position": "FW",
+      "role": "centre-forward",
+      "note": "Powerful young striker offering pace and physicality as the central focal point of the attack."
+    },
+    {
+      "name": "Richard Rios",
+      "position": "MF",
+      "role": "central midfielder",
+      "note": "Energetic, ball-progressing midfielder who has become a key part of the engine room."
+    },
+    {
+      "name": "Daniel Munoz",
+      "position": "DF",
+      "role": "right-back / wing-back",
+      "note": "Crystal Palace full-back providing attacking thrust and aggression down the right."
+    }
   ],
   "historical_news": [
     "Reached the World Cup quarterfinals in 2014, their best-ever finish, with James Rodriguez winning the Golden Boot.",
@@ -23,7 +53,11 @@
     "The 'James farewell' narrative: 2026 likely the captain's last World Cup as he mentors a younger core.",
     "Luis Diaz's emergence as a global star at Bayern Munich reshaped Colombia into a Diaz-led attacking side."
   ],
-  "media_sentiment": { "label": "positive", "confidence": 0.6, "summary": "Upbeat after a winning opener and buoyed by Luis Diaz's club form; seen as strong contenders to advance, balancing James's experience with dynamic young talent." },
+  "media_sentiment": {
+    "label": "positive",
+    "confidence": 0.6,
+    "summary": "Upbeat after a winning opener and buoyed by Luis Diaz's club form; seen as strong contenders to advance, balancing James's experience with dynamic young talent."
+  },
   "sources": [
     "https://colombiaone.com/2026/06/18/colombia-11th-place-fifa-ranking/",
     "https://www.espn.com/soccer/story/_/id/48873914/james-rodriguez-luis-diaz-colombia-world-cup-squad",

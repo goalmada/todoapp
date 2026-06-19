@@ -2,18 +2,48 @@
   "team": "France",
   "iso3": "FRA",
   "fifa_rank": 3,
-  "fifa_points": null,
+  "fifa_points": 1870.7,
   "as_of": "2026-06-11",
   "style": "Direct, athletic and transition-heavy; defensive solidity from a deep block springing world-class pace and dribbling in attack.",
   "recent_form": "Among the betting favourites; qualified comfortably and arrived deep in the FIFA top three under Didier Deschamps.",
   "strength_index": 92,
   "key_players": [
-    { "name": "Kylian Mbappe", "position": "ST/LW", "role": "Captain, talisman", "note": "Elite pace and finishing; carries the attack and arrives in excellent condition." },
-    { "name": "Ousmane Dembele", "position": "RW/LW", "role": "Star winger", "note": "Two-footed dribbler providing unpredictability and chance creation." },
-    { "name": "Michael Olise", "position": "RW", "role": "Creative wide forward", "note": "Sharp passer and set-piece threat adding craft to the front line." },
-    { "name": "Jules Kounde", "position": "RB/CB", "role": "Versatile defender", "note": "Quick, composed full-back/centre-back able to handle elite wingers." },
-    { "name": "N'Golo Kante", "position": "DM/CM", "role": "Midfield destroyer", "note": "Veteran ball-winner providing balance and energy in midfield." },
-    { "name": "Marcus Thuram", "position": "ST", "role": "Forward option", "note": "Physical, mobile striker stretching defences alongside Mbappe." }
+    {
+      "name": "Kylian Mbappe",
+      "position": "ST/LW",
+      "role": "Captain, talisman",
+      "note": "Elite pace and finishing; carries the attack and arrives in excellent condition."
+    },
+    {
+      "name": "Ousmane Dembele",
+      "position": "RW/LW",
+      "role": "Star winger",
+      "note": "Two-footed dribbler providing unpredictability and chance creation."
+    },
+    {
+      "name": "Michael Olise",
+      "position": "RW",
+      "role": "Creative wide forward",
+      "note": "Sharp passer and set-piece threat adding craft to the front line."
+    },
+    {
+      "name": "Jules Kounde",
+      "position": "RB/CB",
+      "role": "Versatile defender",
+      "note": "Quick, composed full-back/centre-back able to handle elite wingers."
+    },
+    {
+      "name": "N'Golo Kante",
+      "position": "DM/CM",
+      "role": "Midfield destroyer",
+      "note": "Veteran ball-winner providing balance and energy in midfield."
+    },
+    {
+      "name": "Marcus Thuram",
+      "position": "ST",
+      "role": "Forward option",
+      "note": "Physical, mobile striker stretching defences alongside Mbappe."
+    }
   ],
   "historical_news": [
     "2018 World Cup winners; runners-up in 2022, losing the final to Argentina on penalties.",
@@ -22,7 +52,11 @@
     "Mbappe's transition to undisputed captain and global superstar at his peak.",
     "Depth of attacking talent (Dembele, Olise, Doue, Cherki) is a defining storyline."
   ],
-  "media_sentiment": { "label": "positive", "confidence": 0.8, "summary": "Consistently listed among the top favourites to win the tournament." },
+  "media_sentiment": {
+    "label": "positive",
+    "confidence": 0.8,
+    "summary": "Consistently listed among the top favourites to win the tournament."
+  },
   "sources": [
     "https://sports.yahoo.com/articles/2026-france-world-cup-roster-175714019.html",
     "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/top-ranked-teams-france-spain-argentina-england-portugal",

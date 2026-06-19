@@ -2,18 +2,48 @@
   "team": "Brazil",
   "iso3": "BRA",
   "fifa_rank": 6,
-  "fifa_points": null,
+  "fifa_points": 1765.86,
   "as_of": "2026-06-11",
   "style": "All-out attacking football under Ancelotti: pace and flair on both flanks, creative midfield runners, aiming to overwhelm rather than sit deep.",
   "recent_form": "Rebuilt under Carlo Ancelotti; arrived sixth in the FIFA ranking aiming to end a World Cup drought stretching to 2002.",
   "strength_index": 89,
   "key_players": [
-    { "name": "Vinicius Junior", "position": "LW", "role": "Star attacker", "note": "Explosive Real Madrid winger and the team's primary dribbling threat from the left." },
-    { "name": "Raphinha", "position": "RW", "role": "Forward, in-form star", "note": "Arrives off a sensational Barcelona season; creative, direct and deadly in front of goal." },
-    { "name": "Marquinhos", "position": "CB", "role": "Captain", "note": "Defensive leader anchoring the back line; seeking to end a 24-year title drought." },
-    { "name": "Bruno Guimaraes", "position": "CM", "role": "Midfield organiser", "note": "Press-resistant Newcastle midfielder controlling tempo and ball progression." },
-    { "name": "Matheus Cunha", "position": "ST/CF", "role": "Forward", "note": "Mobile, versatile Premier League attacker adding penetration." },
-    { "name": "Endrick", "position": "ST", "role": "Young forward", "note": "19-year-old Real Madrid striker offering an impact-from-the-bench spark." }
+    {
+      "name": "Vinicius Junior",
+      "position": "LW",
+      "role": "Star attacker",
+      "note": "Explosive Real Madrid winger and the team's primary dribbling threat from the left."
+    },
+    {
+      "name": "Raphinha",
+      "position": "RW",
+      "role": "Forward, in-form star",
+      "note": "Arrives off a sensational Barcelona season; creative, direct and deadly in front of goal."
+    },
+    {
+      "name": "Marquinhos",
+      "position": "CB",
+      "role": "Captain",
+      "note": "Defensive leader anchoring the back line; seeking to end a 24-year title drought."
+    },
+    {
+      "name": "Bruno Guimaraes",
+      "position": "CM",
+      "role": "Midfield organiser",
+      "note": "Press-resistant Newcastle midfielder controlling tempo and ball progression."
+    },
+    {
+      "name": "Matheus Cunha",
+      "position": "ST/CF",
+      "role": "Forward",
+      "note": "Mobile, versatile Premier League attacker adding penetration."
+    },
+    {
+      "name": "Endrick",
+      "position": "ST",
+      "role": "Young forward",
+      "note": "19-year-old Real Madrid striker offering an impact-from-the-bench spark."
+    }
   ],
   "historical_news": [
     "Record five-time World Cup winners; last title in 2002.",
@@ -22,7 +52,11 @@
     "Marquinhos chasing the end of a 24-year title drought as captain.",
     "Fierce rivalry with Argentina underpins their tournament narrative."
   ],
-  "media_sentiment": { "label": "positive", "confidence": 0.7, "summary": "Viewed as serious contenders with renewed optimism under Ancelotti, balanced against doubts after the long drought." },
+  "media_sentiment": {
+    "label": "positive",
+    "confidence": 0.7,
+    "summary": "Viewed as serious contenders with renewed optimism under Ancelotti, balanced against doubts after the long drought."
+  },
   "sources": [
     "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/brazil-squad-announcement-carlo-ancelotti",
     "https://theanalyst.com/articles/brazil-world-cup-preview-2026-vinicius-raphinha-neymar-ancelotti",

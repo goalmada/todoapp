@@ -2,18 +2,48 @@
   "team": "Ecuador",
   "iso3": "ECU",
   "fifa_rank": 23,
-  "fifa_points": null,
+  "fifa_points": 1598.52,
   "as_of": "2026-06-11",
   "style": "Sebastian Beccacece's compact, high-intensity 4-4-2 with two disciplined banks of four. The side suffocates opponents through relentless pressing, midfield dominance and an exceptional defensive shape, playing vertically in transition. Extremely hard to break down but limited in attacking output.",
   "recent_form": "Defensively elite under Beccacece, conceding just four goals across his entire tenure during CONMEBOL qualifying. One of the most defensively sound teams in the field, though goalscoring remains a clear weakness.",
   "strength_index": 69,
   "key_players": [
-    { "name": "Moises Caicedo", "position": "DM", "role": "midfield driving force", "note": "Chelsea midfielder regarded among the world's best central midfielders; the engine and ball-winner of the team." },
-    { "name": "Willian Pacho", "position": "CB", "role": "defensive cornerstone", "note": "PSG centre-back and first Ecuadorian to win the Champions League; anchors an elite defence." },
-    { "name": "Enner Valencia", "position": "ST", "role": "captain / top scorer", "note": "All-time leading scorer (49 goals); led qualifying with six goals and remains the primary attacking threat." },
-    { "name": "Pervis Estupinan", "position": "LB", "role": "attacking full-back", "note": "Mobile left-back providing width, overlaps and defensive solidity." },
-    { "name": "Kendry Paez", "position": "AM", "role": "emerging creator", "note": "Teenage Chelsea-owned talent (on loan at River Plate); the country's hottest young prospect and creative spark." },
-    { "name": "Hernan Galindez", "position": "GK", "role": "goalkeeper", "note": "Reliable shot-stopper underpinning the team's strong defensive record." }
+    {
+      "name": "Moises Caicedo",
+      "position": "DM",
+      "role": "midfield driving force",
+      "note": "Chelsea midfielder regarded among the world's best central midfielders; the engine and ball-winner of the team."
+    },
+    {
+      "name": "Willian Pacho",
+      "position": "CB",
+      "role": "defensive cornerstone",
+      "note": "PSG centre-back and first Ecuadorian to win the Champions League; anchors an elite defence."
+    },
+    {
+      "name": "Enner Valencia",
+      "position": "ST",
+      "role": "captain / top scorer",
+      "note": "All-time leading scorer (49 goals); led qualifying with six goals and remains the primary attacking threat."
+    },
+    {
+      "name": "Pervis Estupinan",
+      "position": "LB",
+      "role": "attacking full-back",
+      "note": "Mobile left-back providing width, overlaps and defensive solidity."
+    },
+    {
+      "name": "Kendry Paez",
+      "position": "AM",
+      "role": "emerging creator",
+      "note": "Teenage Chelsea-owned talent (on loan at River Plate); the country's hottest young prospect and creative spark."
+    },
+    {
+      "name": "Hernan Galindez",
+      "position": "GK",
+      "role": "goalkeeper",
+      "note": "Reliable shot-stopper underpinning the team's strong defensive record."
+    }
   ],
   "historical_news": [
     "Sebastian Beccacece took charge in August 2024 and built one of the meanest defences in world football, conceding just four goals over his tenure.",

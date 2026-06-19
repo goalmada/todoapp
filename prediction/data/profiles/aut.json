@@ -2,18 +2,48 @@
   "team": "Austria",
   "iso3": "AUT",
   "fifa_rank": 24,
-  "fifa_points": null,
+  "fifa_points": 1597.4,
   "as_of": "2026-06-11",
   "style": "Ralf Rangnick's aggressive Gegenpressing: high pressing, intense counter-pressing and tightly coordinated defensive structure. Austria suffocate opponents in midfield and look to win the ball high; since Euro 2024 they have allowed opponents the lowest pass-completion rate of any side in the World Cup field.",
   "recent_form": "Well-drilled and confident under Rangnick after a strong qualifying campaign. The pressing system is mature and the squad arrives with a clear, organised identity; opened the tournament against Jordan.",
   "strength_index": 67,
   "key_players": [
-    { "name": "David Alaba", "position": "CB", "role": "captain / defensive leader", "note": "Real Madrid veteran and four-time Champions League winner; organises the back line and brings elite experience." },
-    { "name": "Marcel Sabitzer", "position": "CM", "role": "creative midfielder", "note": "Borussia Dortmund engine providing creativity, drive and goals from midfield." },
-    { "name": "Konrad Laimer", "position": "CM", "role": "pressing midfielder", "note": "Bayern Munich starter ideal for Rangnick's high-energy press and ball-winning." },
-    { "name": "Marko Arnautovic", "position": "ST", "role": "vice-captain / forward", "note": "37-year-old record goalscorer and most-capped player; experienced focal point up front." },
-    { "name": "Xaver Schlager", "position": "CM", "role": "central midfielder", "note": "RB Leipzig midfielder who covers ground and sustains the pressing intensity." },
-    { "name": "Kevin Danso", "position": "CB", "role": "starting defender", "note": "Tottenham centre-back providing physicality and aerial strength alongside Alaba." }
+    {
+      "name": "David Alaba",
+      "position": "CB",
+      "role": "captain / defensive leader",
+      "note": "Real Madrid veteran and four-time Champions League winner; organises the back line and brings elite experience."
+    },
+    {
+      "name": "Marcel Sabitzer",
+      "position": "CM",
+      "role": "creative midfielder",
+      "note": "Borussia Dortmund engine providing creativity, drive and goals from midfield."
+    },
+    {
+      "name": "Konrad Laimer",
+      "position": "CM",
+      "role": "pressing midfielder",
+      "note": "Bayern Munich starter ideal for Rangnick's high-energy press and ball-winning."
+    },
+    {
+      "name": "Marko Arnautovic",
+      "position": "ST",
+      "role": "vice-captain / forward",
+      "note": "37-year-old record goalscorer and most-capped player; experienced focal point up front."
+    },
+    {
+      "name": "Xaver Schlager",
+      "position": "CM",
+      "role": "central midfielder",
+      "note": "RB Leipzig midfielder who covers ground and sustains the pressing intensity."
+    },
+    {
+      "name": "Kevin Danso",
+      "position": "CB",
+      "role": "starting defender",
+      "note": "Tottenham centre-back providing physicality and aerial strength alongside Alaba."
+    }
   ],
   "historical_news": [
     "Ralf Rangnick has transformed Austria into one of Europe's best-organised pressing teams.",

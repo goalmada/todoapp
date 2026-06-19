@@ -2,17 +2,42 @@
   "team": "Jordan",
   "iso3": "JOR",
   "fifa_rank": 63,
-  "fifa_points": null,
+  "fifa_points": 1387.74,
   "as_of": "2026-06-11",
   "style": "Disciplined, counter-attacking side under Jamal Sellami that sits compact and breaks at pace through star forward Mousa Al-Tamari. Relies on defensive organization and dead balls; thin on top-five-league experience beyond their talisman.",
   "recent_form": "Qualified for their first-ever World Cup, capitalizing on the AFC's expanded allocation. Building up via friendlies (incl. an Austria test) but weakened by the loss of striker Yazan Al-Naimat to a knee injury.",
   "strength_index": 53,
   "key_players": [
-    { "name": "Mousa Al-Tamari", "position": "FW", "role": "star winger", "note": "Rennes forward and the only squad member in a top-five European league; 24 goals in 91 caps and the team's creative and goal threat." },
-    { "name": "Ali Olwan", "position": "FW", "role": "striker", "note": "Third-highest scorer across all AFC qualifying rounds with nine goals; returns from injury to lead the line." },
-    { "name": "Yazan Al-Arab", "position": "DF", "role": "centre-back", "note": "Defensive leader anchoring Jordan's compact back line." },
-    { "name": "Nour Al-Rawabdeh", "position": "MF", "role": "midfielder", "note": "Energetic midfielder contributing in transition and out of possession." },
-    { "name": "Yazeed Abulaila", "position": "GK", "role": "goalkeeper", "note": "First-choice keeper expected to be heavily tested as underdogs." }
+    {
+      "name": "Mousa Al-Tamari",
+      "position": "FW",
+      "role": "star winger",
+      "note": "Rennes forward and the only squad member in a top-five European league; 24 goals in 91 caps and the team's creative and goal threat."
+    },
+    {
+      "name": "Ali Olwan",
+      "position": "FW",
+      "role": "striker",
+      "note": "Third-highest scorer across all AFC qualifying rounds with nine goals; returns from injury to lead the line."
+    },
+    {
+      "name": "Yazan Al-Arab",
+      "position": "DF",
+      "role": "centre-back",
+      "note": "Defensive leader anchoring Jordan's compact back line."
+    },
+    {
+      "name": "Nour Al-Rawabdeh",
+      "position": "MF",
+      "role": "midfielder",
+      "note": "Energetic midfielder contributing in transition and out of possession."
+    },
+    {
+      "name": "Yazeed Abulaila",
+      "position": "GK",
+      "role": "goalkeeper",
+      "note": "First-choice keeper expected to be heavily tested as underdogs."
+    }
   ],
   "historical_news": [
     "Qualified for their first-ever World Cup, taking advantage of the AFC's expanded eight direct slots.",
@@ -21,7 +46,11 @@
     "Reached a maiden Asian Cup final in 2024, signaling the federation's rise before this World Cup.",
     "Drawn into a daunting Group J with Austria, Algeria and reigning champions Argentina."
   ],
-  "media_sentiment": { "label": "positive", "confidence": 0.6, "summary": "Historic, celebratory mood around a debut World Cup appearance, with hopes resting heavily on Al-Tamari; realistic acknowledgment of underdog status in a brutal group and the blow of losing Al-Naimat." },
+  "media_sentiment": {
+    "label": "positive",
+    "confidence": 0.6,
+    "summary": "Historic, celebratory mood around a debut World Cup appearance, with hopes resting heavily on Al-Tamari; realistic acknowledgment of underdog status in a brutal group and the blow of losing Al-Naimat."
+  },
   "sources": [
     "https://worldsoccertalk.com/world-cup/world-cup-2026-what-is-jordans-current-fifa-world-ranking/",
     "https://www.aljazeera.com/sports/2026/6/6/jordan-world-cup-2026-preview-players-to-watch-group-matches-and-squad",

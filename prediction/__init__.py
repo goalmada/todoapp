@@ -16,6 +16,8 @@ from .schema import (
 )
 from .deterministic import baseline_prediction
 from .context_builder import build_context
+from .llm_adjuster import adjust_prediction
+from .transport import make_anthropic_llm_call
 
 __all__ = [
     "Phase",
@@ -27,4 +29,6 @@ __all__ = [
     "Prediction",
     "baseline_prediction",
     "build_context",
+    "adjust_prediction",
+    "make_anthropic_llm_call",
 ]

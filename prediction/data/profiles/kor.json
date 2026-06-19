@@ -2,17 +2,42 @@
   "team": "Korea Republic",
   "iso3": "KOR",
   "fifa_rank": 25,
-  "fifa_points": null,
+  "fifa_points": 1591.63,
   "as_of": "2026-06-11",
   "style": "Under Hong Myung-bo the side has shifted toward a back-three, built on relentless work rate, quick transitions and counter-attacking. Korea rarely dominates possession against top opponents, instead relying on intensity, pressing and the individual quality of Son and Lee Kang-in to create chances.",
   "recent_form": "Comfortable qualifiers from Asia and a settled core under Hong Myung-bo. Solid but not spectacular, with attention on the back-three experiment and Son's fitness as the veteran captain prepares for a fourth World Cup. In Group A with co-host Mexico, South Africa and Czechia.",
   "strength_index": 66,
   "key_players": [
-    { "name": "Son Heung-min", "position": "FW", "role": "captain / talisman", "note": "33-year-old all-time caps record holder at his fourth World Cup; Korea's most potent attacking weapon with pace and finishing." },
-    { "name": "Kim Min-jae", "position": "CB", "role": "defensive cornerstone", "note": "Bayern Munich centre-back, regarded as the best defender Korea has produced; dominant aerially and key to building out." },
-    { "name": "Lee Kang-in", "position": "AM", "role": "creator", "note": "PSG midfielder offering elite vision and passing range; the main creative outlet beyond fast breaks." },
-    { "name": "Hwang Hee-chan", "position": "FW", "role": "forward", "note": "Pacey, direct attacker effective in transition alongside Son." },
-    { "name": "Hwang In-beom", "position": "CM", "role": "central midfielder", "note": "Tidy two-way midfielder who controls tempo and links defence to attack." }
+    {
+      "name": "Son Heung-min",
+      "position": "FW",
+      "role": "captain / talisman",
+      "note": "33-year-old all-time caps record holder at his fourth World Cup; Korea's most potent attacking weapon with pace and finishing."
+    },
+    {
+      "name": "Kim Min-jae",
+      "position": "CB",
+      "role": "defensive cornerstone",
+      "note": "Bayern Munich centre-back, regarded as the best defender Korea has produced; dominant aerially and key to building out."
+    },
+    {
+      "name": "Lee Kang-in",
+      "position": "AM",
+      "role": "creator",
+      "note": "PSG midfielder offering elite vision and passing range; the main creative outlet beyond fast breaks."
+    },
+    {
+      "name": "Hwang Hee-chan",
+      "position": "FW",
+      "role": "forward",
+      "note": "Pacey, direct attacker effective in transition alongside Son."
+    },
+    {
+      "name": "Hwang In-beom",
+      "position": "CM",
+      "role": "central midfielder",
+      "note": "Tidy two-way midfielder who controls tempo and links defence to attack."
+    }
   ],
   "historical_news": [
     "Son Heung-min captains Korea at his fourth World Cup, holding the national caps record (144).",

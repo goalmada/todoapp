@@ -2,18 +2,48 @@
   "team": "England",
   "iso3": "ENG",
   "fifa_rank": 4,
-  "fifa_points": null,
+  "fifa_points": 1828.02,
   "as_of": "2026-06-11",
   "style": "More aggressive under Tuchel: high press, wingers isolating defenders one-v-one, Rice anchoring behind a No. 10 feeding a focal-point striker.",
   "recent_form": "Strong qualifying under Thomas Tuchel; arrived as a top-four ranked side and genuine contender after reaching Euro 2024 final.",
   "strength_index": 91,
   "key_players": [
-    { "name": "Harry Kane", "position": "ST", "role": "Captain, all-time top scorer", "note": "Prolific Bayern striker in elite form; focal point and leader." },
-    { "name": "Jude Bellingham", "position": "CAM/CM", "role": "No. 10", "note": "Drives play behind Kane; big-moment performer though facing competition for his spot." },
-    { "name": "Bukayo Saka", "position": "RW", "role": "Primary creator", "note": "England's most reliable route into the final third with dribbling and end product." },
-    { "name": "Declan Rice", "position": "DM", "role": "Defensive spine", "note": "Screens the back four and recycles possession; the press depends on him." },
-    { "name": "Anthony Gordon", "position": "LW", "role": "Wide attacker", "note": "Direct runner suited to Tuchel's isolation-based wing play." },
-    { "name": "Jordan Pickford", "position": "GK", "role": "First-choice keeper", "note": "Reliable shot-stopper and shootout performer." }
+    {
+      "name": "Harry Kane",
+      "position": "ST",
+      "role": "Captain, all-time top scorer",
+      "note": "Prolific Bayern striker in elite form; focal point and leader."
+    },
+    {
+      "name": "Jude Bellingham",
+      "position": "CAM/CM",
+      "role": "No. 10",
+      "note": "Drives play behind Kane; big-moment performer though facing competition for his spot."
+    },
+    {
+      "name": "Bukayo Saka",
+      "position": "RW",
+      "role": "Primary creator",
+      "note": "England's most reliable route into the final third with dribbling and end product."
+    },
+    {
+      "name": "Declan Rice",
+      "position": "DM",
+      "role": "Defensive spine",
+      "note": "Screens the back four and recycles possession; the press depends on him."
+    },
+    {
+      "name": "Anthony Gordon",
+      "position": "LW",
+      "role": "Wide attacker",
+      "note": "Direct runner suited to Tuchel's isolation-based wing play."
+    },
+    {
+      "name": "Jordan Pickford",
+      "position": "GK",
+      "role": "First-choice keeper",
+      "note": "Reliable shot-stopper and shootout performer."
+    }
   ],
   "historical_news": [
     "1966 World Cup winners; long drought without a major men's title since.",
@@ -22,7 +52,11 @@
     "Squad snubs of Cole Palmer and Phil Foden generated debate.",
     "Perennial 'football's coming home' expectation and knockout-stage scrutiny."
   ],
-  "media_sentiment": { "label": "positive", "confidence": 0.7, "summary": "Treated as a strong contender with optimism around Tuchel's bolder approach, tempered by history of falling short." },
+  "media_sentiment": {
+    "label": "positive",
+    "confidence": 0.7,
+    "summary": "Treated as a strong contender with optimism around Tuchel's bolder approach, tempered by history of falling short."
+  },
   "sources": [
     "https://www.espn.com/soccer/story/_/id/48823863/meet-england-2026-world-cup-squad-26-players-picked-thomas-tuchel-why",
     "https://worldsoccertalk.com/world-cup/england-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/",
