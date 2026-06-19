@@ -1,0 +1,31 @@
+{
+  "team": "Argentina",
+  "iso3": "ARG",
+  "fifa_rank": 1,
+  "fifa_points": 1877.27,
+  "as_of": "2026-06-11",
+  "style": "Balanced and pragmatic: compact defensive block, controlled midfield, devastating in transition with Messi orchestrating the final third.",
+  "recent_form": "Reigning world champions; topped CONMEBOL qualifying comfortably and arrived as the no. 1 ranked side. Strong tournament opening with Messi influential.",
+  "strength_index": 95,
+  "key_players": [
+    { "name": "Lionel Messi", "position": "RW/CAM", "role": "Captain, creative talisman", "note": "First player to feature in six World Cups; decisive in knockouts and the team's chief creator." },
+    { "name": "Lautaro Martinez", "position": "ST", "role": "Starting striker", "note": "Clinical penalty-box finisher and pressing leader up front." },
+    { "name": "Julian Alvarez", "position": "ST/CF", "role": "Forward, 2022 hero", "note": "Scored four goals in the 2022 winning run; relentless movement and link play." },
+    { "name": "Emiliano Martinez", "position": "GK", "role": "First-choice keeper", "note": "Penalty-shootout specialist and big-game presence between the posts." },
+    { "name": "Rodrigo De Paul", "position": "CM", "role": "Midfield engine", "note": "Box-to-box runner who shields Messi and drives transitions." },
+    { "name": "Nico Paz", "position": "CAM", "role": "Emerging creator", "note": "Highly rated after a strong season at Como; depth and dynamism in attack." }
+  ],
+  "historical_news": [
+    "2022 World Cup winners in Qatar, beating France on penalties in an all-time final.",
+    "Three-time World Cup champions (1978, 1986, 2022).",
+    "Messi's expected final World Cup frames a powerful GOAT/legacy narrative.",
+    "Seeking to become the first team to defend the World Cup since Brazil in 1962.",
+    "Long-running rivalry with Brazil and a Copa America-to-World Cup golden generation arc under Scaloni."
+  ],
+  "media_sentiment": { "label": "positive", "confidence": 0.85, "summary": "Framed as top-ranked favourites with Messi driving a historic title-defence storyline." },
+  "sources": [
+    "https://cryptobriefing.com/argentina-fifa-rankings-2026-world-cup/",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/argentina-squad-announced",
+    "https://www.si.com/soccer/argentina-2026-world-cup-roster-confirmed-full-list-players-messi-makes-history"
+  ]
+}

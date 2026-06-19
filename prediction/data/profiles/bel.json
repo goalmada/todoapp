@@ -1,0 +1,65 @@
+{
+  "team": "Belgium",
+  "iso3": "BEL",
+  "fifa_rank": 9,
+  "fifa_points": 1742.24,
+  "as_of": "2026-06-11",
+  "style": "High-tempo attacking football under Rudi Garcia, blending veterans with emerging talent; creativity through De Bruyne and pace via Doku.",
+  "recent_form": "Qualified with De Bruyne and Doku leading the goal output; arrived ranked ninth as a fading-golden-generation side in transition.",
+  "strength_index": 86,
+  "key_players": [
+    {
+      "name": "Kevin De Bruyne",
+      "position": "CAM/CM",
+      "role": "Creative leader",
+      "note": "Chief playmaker; led qualifying with six goals and remains the team's creative hub."
+    },
+    {
+      "name": "Jeremy Doku",
+      "position": "LW/RW",
+      "role": "Star winger",
+      "note": "Explosive one-v-one dribbler; added five goals in qualification."
+    },
+    {
+      "name": "Romelu Lukaku",
+      "position": "ST",
+      "role": "Focal striker",
+      "note": "All-time top scorer (89 goals) at his fourth World Cup; the central finishing reference."
+    },
+    {
+      "name": "Thibaut Courtois",
+      "position": "GK",
+      "role": "First-choice keeper",
+      "note": "World-class shot-stopper capable of winning matches on his own."
+    },
+    {
+      "name": "Leandro Trossard",
+      "position": "LW/ST",
+      "role": "Versatile forward",
+      "note": "Arsenal attacker providing flexibility and end product across the front line."
+    },
+    {
+      "name": "Youri Tielemans",
+      "position": "CM",
+      "role": "Midfield controller",
+      "note": "Aston Villa midfielder offering passing range and balance in the centre."
+    }
+  ],
+  "historical_news": [
+    "Golden generation reached the 2018 World Cup semi-finals (third place), their best finish.",
+    "Underwhelming 2022 group-stage exit triggered a squad transition.",
+    "Rudi Garcia tasked with blending ageing stars and new talent.",
+    "Reliance on De Bruyne and Lukaku as the generation's final tournament window.",
+    "Long-standing 'best team never to win' narrative around the golden generation."
+  ],
+  "media_sentiment": {
+    "label": "neutral",
+    "confidence": 0.65,
+    "summary": "Seen as a quality but declining side capable of a run if veterans stay fit, no longer a top favourite."
+  },
+  "sources": [
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "https://worldsoccertalk.com/world-cup/belgium-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/",
+    "https://heavy.com/sports/soccer/world-cup/belgium-world-cup-squad-club-teams/"
+  ]
+}

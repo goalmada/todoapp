@@ -1,0 +1,31 @@
+{
+  "team": "Algeria",
+  "iso3": "DZA",
+  "fifa_rank": 28,
+  "fifa_points": 1571.03,
+  "as_of": "2026-06-11",
+  "style": "Technical, possession-oriented African side under Vladimir Petkovic with abundant attacking talent. Builds patiently and overloads the final third through creative midfielders and pacey, skilful forwards.",
+  "recent_form": "Back at the World Cup for the first time since 2014. Strong CAF qualification campaign carried by a deep pool of European-based attackers heading into the tournament.",
+  "strength_index": 72,
+  "key_players": [
+    { "name": "Riyad Mahrez", "position": "FW", "role": "captain, winger", "note": "Generational leader with 38 international goals; heading to what he calls his last World Cup, still the team's creative reference point." },
+    { "name": "Mohamed Amine Amoura", "position": "FW", "role": "forward", "note": "Wolfsburg attacker offering pace, movement and a sharp goal threat." },
+    { "name": "Amine Gouiri", "position": "FW", "role": "striker", "note": "Marseille forward providing a mobile, clinical focal point in attack." },
+    { "name": "Houssem Aouar", "position": "MF", "role": "attacking midfielder", "note": "Al-Ittihad playmaker adding technical quality and creativity in the final third." },
+    { "name": "Fares Chaibi", "position": "MF", "role": "midfielder", "note": "Eintracht Frankfurt midfielder contributing energy and ball progression." },
+    { "name": "Ibrahim Maza", "position": "MF", "role": "midfielder", "note": "Bayer Leverkusen talent representing the new generation in midfield." }
+  ],
+  "historical_news": [
+    "Algeria back at the World Cup for the first time since 2014 under Vladimir Petkovic.",
+    "Drawn in Group J alongside defending champions Argentina, Austria and Jordan.",
+    "Riyad Mahrez, 35, says this is his last World Cup after 38 international goals.",
+    "Squad boasts deep European-based attacking talent including Amoura, Gouiri and Aouar.",
+    "Algeria one of the higher-ranked African sides at the tournament at 28th."
+  ],
+  "media_sentiment": { "label": "positive", "confidence": 0.6, "summary": "Upbeat given a talented squad and World Cup return, with focus on Mahrez's farewell, though the daunting group with Argentina tempers ambitions." },
+  "sources": [
+    "https://bolavip.com/en/world-cup/whats-algerias-fifa-ranking-at-the-2026-world-cup-more-about-messi-argentinas-opponent",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-algeria-preview-full-squad-list-key-stats-schedule",
+    "https://worldsoccertalk.com/world-cup/algeria-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/"
+  ]
+}

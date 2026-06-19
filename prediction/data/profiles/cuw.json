@@ -1,0 +1,32 @@
+{
+  "team": "Curacao",
+  "iso3": "CUW",
+  "fifa_rank": 82,
+  "fifa_points": 1294.77,
+  "as_of": "2026-06-11",
+  "style": "Dutch-influenced, technically tidy Caribbean side under Dick Advocaat drawing heavily on Netherlands-developed diaspora. Organised and compact, looking to play out and counter through creative wide players.",
+  "recent_form": "Completed a historic first-ever World Cup qualification, climbing the FIFA ranking from 91st in 2024 to 82nd. Drawn in a tough Group E with Germany, Ecuador and Ivory Coast.",
+  "strength_index": 50,
+  "key_players": [
+    { "name": "Leandro Bacuna", "position": "MF", "role": "captain, most-capped", "note": "34-year-old midfielder and captain with Premier League experience at Aston Villa and Cardiff City; the team's leader." },
+    { "name": "Juninho Bacuna", "position": "MF", "role": "creator", "note": "Leandro's younger brother and one of the squad's most creative players; Premier League time with Huddersfield." },
+    { "name": "Tahith Chong", "position": "MF", "role": "game-changer", "note": "Ex-Manchester United winger who debuted for the Blue Wave in September 2025 and quickly showed game-changing quality." },
+    { "name": "Rangelo Janga", "position": "FW", "role": "striker, all-time top scorer", "note": "FC Eindhoven striker and Curacao's record scorer (21 goals in 43 caps)." },
+    { "name": "Gervane Kastaneer", "position": "FW", "role": "forward", "note": "Combined with Kenji Gorre for eight goals in qualifying; key attacking outlet." }
+  ],
+  "historical_news": [
+    "Became the smallest nation by population ever to qualify for a FIFA World Cup (around 150,000 people).",
+    "First-ever World Cup appearance, having risen from 91st to 82nd in the FIFA ranking since 2024.",
+    "Veteran coach Dick Advocaat leads a Netherlands-rooted diaspora squad into Group E with Germany, Ecuador and Ivory Coast."
+  ],
+  "media_sentiment": {
+    "label": "positive",
+    "confidence": 0.6,
+    "summary": "Largely celebratory coverage of a record-breaking smallest-ever qualifier, with realistic acknowledgement of a daunting group draw."
+  },
+  "sources": [
+    "https://www.aljazeera.com/sports/2026/5/12/what-to-know-about-curacao-at-the-fifa-world-cup-2026",
+    "https://worldsoccertalk.com/world-cup/curazao-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/",
+    "https://inside.fifa.com/fifa-world-ranking/CUW?gender=men"
+  ]
+}

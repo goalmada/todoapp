@@ -1,0 +1,31 @@
+{
+  "team": "Bosnia and Herzegovina",
+  "iso3": "BIH",
+  "fifa_rank": 64,
+  "fifa_points": 1387.0,
+  "as_of": "2026-06-11",
+  "style": "Resilient, physical side under Sergej Barbarez that leans on experience and a robust spine. Build-up runs through technical midfielders into the box for Dzeko and Tabakovic; dangerous on transitions and from crosses, but can be vulnerable defensively against pace.",
+  "recent_form": "Qualified for only their second-ever World Cup by beating Italy on penalties in a March playoff. Tabakovic's late equalizer in that decisive tie typified their never-say-die qualification run.",
+  "strength_index": 53,
+  "key_players": [
+    { "name": "Edin Dzeko", "position": "FW", "role": "talisman striker", "note": "Turned 40 in March; still leads the line (73 goals in 148 caps) and the last active member of the 2014 golden generation, playing club football at Schalke." },
+    { "name": "Haris Tabakovic", "position": "FW", "role": "centre-forward", "note": "Bundesliga-proven finisher; scored the crucial late goal in the qualification-clinching playoff against Italy." },
+    { "name": "Sead Kolasinac", "position": "DF", "role": "left-sided defender", "note": "Physical, experienced full-back/centre-back providing leadership at the back." },
+    { "name": "Amir Hadziahmetovic", "position": "MF", "role": "central midfielder", "note": "Combative midfielder who screens the defence and recycles possession." },
+    { "name": "Nikola Vasilj", "position": "GK", "role": "goalkeeper", "note": "St. Pauli keeper expected to be busy as the last line for the underdogs." }
+  ],
+  "historical_news": [
+    "Beat Italy on penalties in a March 2026 playoff to reach only their second-ever World Cup (first since 2014).",
+    "40-year-old Edin Dzeko leads the team, the final active member of the 2014 World Cup golden generation.",
+    "Miralem Pjanic retired from football in December 2025, ending an era for the national team.",
+    "First team to name its final 26-man World Cup squad (announced May 11, 2026).",
+    "Drawn into a difficult Group B with Canada, Switzerland and Qatar."
+  ],
+  "media_sentiment": { "label": "neutral", "confidence": 0.55, "summary": "Romantic underdog narrative around Dzeko's farewell tournament and the dramatic playoff win over Italy, balanced by realism about an aging squad and a tough group; viewed as capable of causing an upset." },
+  "sources": [
+    "https://worldsoccertalk.com/world-cup/world-cup-2026-what-is-bosnia-and-herzegovina-current-fifa-world-ranking/",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/bosnia-and-herzegovina-sergej-barbarez-names-squad",
+    "https://www.fourfourtwo.com/team/bosnia-world-cup-2026-squad",
+    "https://sports.yahoo.com/articles/inside-bosnia-herzegovinas-world-cup-104020704.html"
+  ]
+}

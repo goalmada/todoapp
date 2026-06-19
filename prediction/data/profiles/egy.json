@@ -1,0 +1,31 @@
+{
+  "team": "Egypt",
+  "iso3": "EGY",
+  "fifa_rank": 29,
+  "fifa_points": 1562.37,
+  "as_of": "2026-06-11",
+  "style": "Pragmatic, counter-attacking side built around quick transitions and the individual brilliance of Mohamed Salah. Solid defensive block from coach Hossam Hassan, looking to spring forward through Salah and Marmoush on the break.",
+  "recent_form": "Comfortable World Cup qualifiers, topping their CAF group with Salah scoring nine qualifying goals. Enter the tournament as one of Africa's most experienced sides chasing a first-ever World Cup knockout berth.",
+  "strength_index": 71,
+  "key_players": [
+    { "name": "Mohamed Salah", "position": "FW", "role": "captain, talisman", "note": "Liverpool star and Egypt's focal point; closing in on the national scoring record, carries the team's attacking threat from the right." },
+    { "name": "Omar Marmoush", "position": "FW", "role": "second striker", "note": "Manchester City forward providing pace and a second elite goal threat alongside Salah." },
+    { "name": "Mohamed Abdelmonem", "position": "DF", "role": "centre-back", "note": "Nice defender anchoring the backline; composed in the air and on the ball." },
+    { "name": "Trezeguet", "position": "MF", "role": "winger", "note": "Al Ahly attacker providing width, directness and end product on the flank." },
+    { "name": "Mohamed El Shenawy", "position": "GK", "role": "first-choice keeper", "note": "Al Ahly veteran and experienced shot-stopper between the posts." },
+    { "name": "Hamdy Fathy", "position": "MF", "role": "defensive midfielder", "note": "Al-Wakrah midfielder offering ball-winning and screening protection for the defence." }
+  ],
+  "historical_news": [
+    "Mohamed Salah will captain the Pharaohs in what is widely billed as his last World Cup.",
+    "Head coach Hossam Hassan, Egypt's all-time leading scorer, holds the 69-goal record Salah is chasing.",
+    "Egypt drawn in Group G alongside Belgium, New Zealand and Iran.",
+    "Pharaohs targeting a first-ever World Cup knockout-stage appearance.",
+    "Salah top-scored in qualifying with nine goals as Egypt cruised through CAF qualification."
+  ],
+  "media_sentiment": { "label": "positive", "confidence": 0.62, "summary": "Optimism centred on Salah's farewell tournament and an experienced squad seen as capable of finally reaching the knockouts, tempered by a tough group draw." },
+  "sources": [
+    "https://www.ysscores.com/en/news/13982099/egypt-national-team-retains-29th-place-in-fifa-ranking-before-world-cup",
+    "https://www.aljazeera.com/sports/2026/5/21/mohamed-salah-to-captain-egypt-as-squad-announced-for-fifa-world-cup-2026",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-mohamed-salah-and-egypt-chase-first-ever-quarter-final-berth-all-players-full-squad-list-key-stats-and-schedule"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "team": "Ghana",
+  "iso3": "GHA",
+  "fifa_rank": 73,
+  "fifa_points": 1346.88,
+  "as_of": "2026-06-11",
+  "style": "Athletic, direct side under Carlos Queiroz emphasizing defensive structure and rapid counter-attacks. Pace and power on the flanks through Semenyo and Williams, with Partey providing control in midfield; can struggle for creativity in tight games.",
+  "recent_form": "Qualified for the finals via CAF, with Mohammed Kudus's goal against Comoros sealing the spot. Notably, Kudus was left out of the final World Cup squad in a major selection talking point.",
+  "strength_index": 49,
+  "key_players": [
+    { "name": "Antoine Semenyo", "position": "FW", "role": "explosive winger", "note": "Ghana's most exciting player; lit up the Premier League with Bournemouth before a January move and is a guaranteed starter." },
+    { "name": "Thomas Partey", "position": "MF", "role": "deep-lying midfielder", "note": "Villarreal midfielder bringing experience and control; the metronome of the side despite limited club minutes." },
+    { "name": "Inaki Williams", "position": "FW", "role": "forward", "note": "Athletic Bilbao forward with pace to stretch defences; a certainty in the attack." },
+    { "name": "Jordan Ayew", "position": "FW", "role": "captain / forward", "note": "Captains the Black Stars; experienced finisher with a strong international scoring record." },
+    { "name": "Mohammed Salisu", "position": "DF", "role": "centre-back", "note": "Composed defender anchoring the back line for Queiroz's structured setup." }
+  ],
+  "historical_news": [
+    "Qualified for the 2026 World Cup via CAF, with Mohammed Kudus's goal v Comoros sealing the berth.",
+    "Marquee midfielder Mohammed Kudus controversially omitted from the final World Cup squad.",
+    "Carlos Queiroz named the official 26-man squad in late May 2026.",
+    "Antoine Semenyo lifted the Carabao Cup in March after a January transfer, headlining his breakout season.",
+    "Drawn into Group F alongside Croatia, Egypt and Panama."
+  ],
+  "media_sentiment": { "label": "neutral", "confidence": 0.55, "summary": "Mixed Ghanaian sentiment: excitement over Semenyo's form and Partey's experience offset by debate over Kudus's exclusion and a tough group; cautious optimism about reaching the knockouts." },
+  "sources": [
+    "https://bolavip.com/en/world-cup/ghanas-fifa-ranking-during-the-2026-world-cup",
+    "https://futbor.com/en/fifa-rankings/ghana",
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/carlos-queiroz-s-official-ghana-squad-for-the-2026-fifa-world-cup-2026-05-27",
+    "https://worldsoccertalk.com/world-cup/ghana-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/"
+  ]
+}

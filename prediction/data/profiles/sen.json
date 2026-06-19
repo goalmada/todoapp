@@ -1,0 +1,66 @@
+{
+  "team": "Senegal",
+  "iso3": "SEN",
+  "fifa_rank": 15,
+  "fifa_points": 1684.07,
+  "as_of": "2026-06-11",
+  "style": "Athletic, physical and direct. Senegal combine size, power and pace with a solid defensive structure and dangerous transitions. Strong in duels and set pieces, they rely on explosive forwards and a robust spine, blending experience with youthful athleticism.",
+  "recent_form": "Arrive for their third consecutive World Cup as arguably Africa's best side and the most potent of the African qualifiers. A star-studded, athletic squad balancing veteran leadership with emerging talent, viewed as serious contenders to advance deep.",
+  "strength_index": 77,
+  "key_players": [
+    {
+      "name": "Sadio Mane",
+      "position": "FW",
+      "role": "captain / talisman",
+      "note": "34-year-old veteran forward at his last World Cup; pace has faded but retains world-class touch, vision and leadership as the creative heartbeat."
+    },
+    {
+      "name": "Kalidou Koulibaly",
+      "position": "DF",
+      "role": "centre-back / defensive leader",
+      "note": "Commanding, experienced defender anchoring the back line; physical and aerially dominant."
+    },
+    {
+      "name": "Pape Matar Sarr",
+      "position": "MF",
+      "role": "central midfielder",
+      "note": "Tottenham midfielder providing energy, ball progression and box-to-box dynamism in the engine room."
+    },
+    {
+      "name": "Nicolas Jackson",
+      "position": "FW",
+      "role": "centre-forward",
+      "note": "Powerful, mobile striker offering pace in behind and a focal point for the attack."
+    },
+    {
+      "name": "Ismaila Sarr",
+      "position": "FW",
+      "role": "wide forward",
+      "note": "Rapid winger who stretches defenses and provides directness and goal threat on the flank."
+    },
+    {
+      "name": "Iliman Ndiaye",
+      "position": "FW",
+      "role": "forward / creator",
+      "note": "Skilful, two-footed attacker adding creativity and dribbling in the final third."
+    }
+  ],
+  "historical_news": [
+    "Won the 2021 Africa Cup of Nations (held in 2022), their first-ever AFCON title, beating Egypt on penalties.",
+    "Reached the World Cup quarterfinals on debut in 2002, famously beating defending champions France in the opener.",
+    "Reached the round of 16 at the 2022 World Cup despite Sadio Mane being ruled out by injury before the tournament.",
+    "The celebrated 'golden generation' narrative around Mane, Koulibaly and a deep pool of European-based talent.",
+    "Consistently regarded as Africa's flagship side, qualifying for a third straight World Cup in 2026.",
+    "Sadio Mane's farewell tournament storyline as the captain plays his final World Cup."
+  ],
+  "media_sentiment": {
+    "label": "positive",
+    "confidence": 0.65,
+    "summary": "Positive; widely tipped as Africa's strongest squad alongside Morocco, with the talent and athleticism to make a deep run, though questions linger over Mane's age."
+  },
+  "sources": [
+    "https://www.aljazeera.com/sports/2026/5/21/sadio-mane-kalidou-koulibaly-star-picks-in-senegals-world-cup-squad",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-senegal-all-players-full-squad-list-key-stats-schedule",
+    "https://www.aol.com/articles/u-no-15-fifa-mens-190710532.html"
+  ]
+}

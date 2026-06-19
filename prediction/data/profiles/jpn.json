@@ -1,0 +1,32 @@
+{
+  "team": "Japan",
+  "iso3": "JPN",
+  "fifa_rank": 18,
+  "fifa_points": 1661.58,
+  "as_of": "2026-06-11",
+  "style": "Fast, technical, well-organized football under Hajime Moriyasu. Japan press cohesively, move the ball quickly and attack through pacey, skilful wide players and intelligent positional rotations. Disciplined and tactically flexible, capable of switching shape mid-game.",
+  "recent_form": "Asia's top-ranked nation, arriving as genuine dark horses for their eighth consecutive World Cup. Form is dented by major injuries: creative talisman Kaoru Mitoma (hamstring) and captain Wataru Endo both ruled out just before the tournament, shifting the creative burden onto Takefusa Kubo.",
+  "strength_index": 73,
+  "key_players": [
+    { "name": "Takefusa Kubo", "position": "MF", "role": "creative talisman", "note": "Real Sociedad attacker, 24; main creative outlet with Mitoma out. Endured form and fitness struggles but should be fresh for the big stage." },
+    { "name": "Ritsu Doan", "position": "FW", "role": "wide forward", "note": "Direct, two-footed winger who cuts inside to shoot; a key attacking weapon and reliable goal threat." },
+    { "name": "Ayase Ueda", "position": "FW", "role": "centre-forward", "note": "Feyenoord striker and Eredivisie top scorer with 25 goals; clinical penalty-box finisher leading the line." },
+    { "name": "Daichi Kamada", "position": "MF", "role": "central / attacking midfielder", "note": "Premier League midfielder providing creativity, late runs and goals from the engine room." },
+    { "name": "Ko Itakura", "position": "DF", "role": "centre-back", "note": "Composed, ball-playing defender anchoring the back line and stepping into midfield." },
+    { "name": "Yuto Nagatomo", "position": "DF", "role": "veteran full-back", "note": "39-year-old set to become the first Asian player to appear at five different World Cups; experienced leader and squad presence." }
+  ],
+  "historical_news": [
+    "Stunned Germany and Spain in the 2022 World Cup group stage, topping a group of death before a round-of-16 penalty exit to Croatia.",
+    "Reached the World Cup knockout rounds three times (2002, 2010, 2018, 2022) but never advanced past the round of 16, the recurring 'glass ceiling' narrative.",
+    "Led Belgium 2-0 in the 2018 round of 16 before conceding three late goals in one of the tournament's great comebacks against them.",
+    "Established as Asia's standard-bearer, consistently the continent's highest-ranked side under Moriyasu.",
+    "Pre-tournament injury blow in 2026: star winger Kaoru Mitoma and captain Wataru Endo both ruled out.",
+    "Yuto Nagatomo's pursuit of a record fifth World Cup as the first Asian player to reach the milestone."
+  ],
+  "media_sentiment": { "label": "neutral", "confidence": 0.6, "summary": "Regarded as exciting dark horses with strong depth, but optimism is tempered by the injury losses of Mitoma and Endo and the unresolved knockout-stage ceiling." },
+  "sources": [
+    "https://futbor.com/en/fifa-rankings/japan",
+    "https://www.fourfourtwo.com/team/japan-world-cup-2026-squad",
+    "https://sports.yahoo.com/articles/inside-japans-world-cup-roster-123040508.html"
+  ]
+}

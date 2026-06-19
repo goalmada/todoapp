@@ -1,0 +1,32 @@
+{
+  "team": "Croatia",
+  "iso3": "HRV",
+  "fifa_rank": 11,
+  "fifa_points": 1717.0,
+  "as_of": "2026-06-11",
+  "style": "Possession-based, midfield-dominant football under Zlatko Dalic. Croatia control tempo through technically elite central midfielders, recycle the ball patiently, and rely on game intelligence and set-piece discipline rather than raw athleticism. Defensively organized in a 4-3-3 that can shift to a back three.",
+  "recent_form": "An aging but battle-tested side. Qualified comfortably and remain a top-tier European team, but lost their Group L opener 4-2 to England, exposing defensive vulnerabilities against pace. Several key players (Modric, Gvardiol) returned from injury just before the tournament.",
+  "strength_index": 81,
+  "key_players": [
+    { "name": "Luka Modric", "position": "MF", "role": "captain / deep-lying playmaker", "note": "40-year-old AC Milan maestro at his fifth World Cup; recovered from April cheekbone surgery. Still dictates tempo but mobility is declining." },
+    { "name": "Josko Gvardiol", "position": "DF", "role": "starting centre-back / left-back", "note": "Manchester City defender, 24; returned from January shin-fracture surgery. Croatia's most athletic defender and ball-carrier out of the back." },
+    { "name": "Mateo Kovacic", "position": "MF", "role": "central midfielder", "note": "Press-resistant Man City midfielder who shoulders increasing load as Modric ages; over 100 caps." },
+    { "name": "Andrej Kramaric", "position": "FW", "role": "forward / second striker", "note": "Veteran Hoffenheim attacker with over 100 caps; clever finisher and link player in the final third." },
+    { "name": "Mario Pasalic", "position": "MF", "role": "box-to-box midfielder", "note": "Atalanta midfielder offering late runs and goal threat from deep; key rotation/starter option." },
+    { "name": "Ivan Perisic", "position": "FW", "role": "wide forward / wing-back", "note": "Experienced 100-cap wide man; big-game performer who provides width, crossing and stamina." }
+  ],
+  "historical_news": [
+    "Runners-up at the 2018 World Cup in Russia, losing the final 4-2 to France in their golden generation's peak.",
+    "Third place at the 2022 World Cup in Qatar, beating Morocco in the third-place playoff.",
+    "Won the 2018 Golden Ball through Luka Modric, who broke Messi and Ronaldo's decade-long Ballon d'Or duopoly that year.",
+    "Reputation as penalty-shootout specialists, having repeatedly advanced via spot-kicks in 2018 and 2022.",
+    "Persistent 'last dance' narrative around the aging core of Modric, Perisic and Kramaric at the 2026 tournament.",
+    "Opened the 2026 World Cup with a 4-2 loss to England, raising questions about whether the veteran spine can still go deep."
+  ],
+  "media_sentiment": { "label": "neutral", "confidence": 0.6, "summary": "Respected as serial overachievers and tactically elite, but media frame 2026 as the final ride for an aging core; the opening loss to England tempered expectations." },
+  "sources": [
+    "https://bolavip.com/en/world-cup/croatias-fifa-ranking-at-the-2026-world-cup-a-look-at-englands-group-opponent",
+    "https://www.uefa.com/european-qualifiers/news/02a6-20d159312e19-b662016c6c47-1000--croatia-at-the-world-cup-2026-squad-fixtures-group-and-hi/",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-group-l-england-croatia-live-updates-ticker"
+  ]
+}

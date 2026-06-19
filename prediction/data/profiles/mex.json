@@ -1,0 +1,65 @@
+{
+  "team": "Mexico",
+  "iso3": "MEX",
+  "fifa_rank": 14,
+  "fifa_points": 1687.48,
+  "as_of": "2026-06-11",
+  "style": "Possession-oriented 4-3-3 under Javier Aguirre, with Edson Alvarez anchoring as a single pivot and the team building from the back, occasionally dropping a midfielder into central defence to play out. Quick combination play and width in the final third, balanced by experienced game management.",
+  "recent_form": "Co-hosts entering a home World Cup with momentum after a strong pre-tournament cycle under Aguirre, including a 2024-25 CONCACAF Nations League/Gold Cup run. Settled squad spine and high confidence playing on home soil.",
+  "strength_index": 76,
+  "key_players": [
+    {
+      "name": "Edson Alvarez",
+      "position": "DM",
+      "role": "captain / midfield anchor",
+      "note": "Ball-winning pivot who shields the back line and can drop into central defence; the tactical hinge of Aguirre's system."
+    },
+    {
+      "name": "Santiago Gimenez",
+      "position": "ST",
+      "role": "starting striker",
+      "note": "AC Milan forward offering pace and clinical finishing; Mexico's main attacking threat in transition."
+    },
+    {
+      "name": "Raul Jimenez",
+      "position": "ST",
+      "role": "veteran forward",
+      "note": "34-year-old physical target man coming off a double-digit scoring Premier League season at Fulham; key reference point up front."
+    },
+    {
+      "name": "Orbelin Pineda",
+      "position": "AM",
+      "role": "creator",
+      "note": "Left-footed playmaker providing creativity and set-piece delivery in midfield."
+    },
+    {
+      "name": "Johan Vasquez",
+      "position": "CB",
+      "role": "starting defender",
+      "note": "Aggressive, mobile centre-back comfortable defending high lines."
+    },
+    {
+      "name": "Guillermo Ochoa",
+      "position": "GK",
+      "role": "experienced goalkeeper",
+      "note": "Veteran World Cup keeper providing leadership and big-game experience."
+    }
+  ],
+  "historical_news": [
+    "Co-hosts of the 2026 World Cup alongside the USA and Canada, opening the tournament on home soil.",
+    "Javier Aguirre returned for a third spell as national team coach, with Rafael Marquez as assistant.",
+    "Mexico has historically reached the World Cup knockout rounds repeatedly but has long sought to break the round-of-16 ceiling.",
+    "Generational shift completed with Santiago Gimenez emerging as the new attacking focal point alongside veteran Raul Jimenez.",
+    "Won recent CONCACAF silverware during the 2024-26 cycle, restoring regional dominance."
+  ],
+  "media_sentiment": {
+    "label": "positive",
+    "confidence": 0.65,
+    "summary": "Optimism around hosting and a settled side under Aguirre, tempered by long-standing pressure to finally advance beyond the round of 16."
+  },
+  "sources": [
+    "https://www.espn.com/soccer/story/_/id/46664763/fifa-mens-top-50-world-rankings",
+    "https://www.aljazeera.com/sports/2026/6/5/mexico-world-cup-2026-preview-players-to-watch-group-matches-and-squad",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/mexico-squad-announced"
+  ]
+}

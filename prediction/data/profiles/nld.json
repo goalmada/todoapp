@@ -1,0 +1,31 @@
+{
+  "team": "Netherlands",
+  "iso3": "NLD",
+  "fifa_rank": 8,
+  "fifa_points": 1753.57,
+  "as_of": "2026-06-11",
+  "style": "Structured possession from a flexible back line, controlled build-up through De Jong, with width and directness feeding Gakpo and Depay.",
+  "recent_form": "Qualified under Ronald Koeman as a top-eight ranked side; hit by late injuries to key defenders ahead of the tournament.",
+  "strength_index": 88,
+  "key_players": [
+    { "name": "Virgil van Dijk", "position": "CB", "role": "Captain, defensive leader", "note": "Commanding centre-back who organises the defence and brings calm in big games." },
+    { "name": "Frenkie de Jong", "position": "CM", "role": "Midfield conductor", "note": "Barcelona midfielder who dictates tempo and progresses the ball through the lines." },
+    { "name": "Cody Gakpo", "position": "LW/ST", "role": "Forward", "note": "Versatile, powerful Liverpool attacker providing goals and width." },
+    { "name": "Memphis Depay", "position": "ST/CF", "role": "Talisman", "note": "Experienced forward leading the attack and a key creative and scoring outlet." },
+    { "name": "Tijjani Reijnders", "position": "CM", "role": "Two-way midfielder", "note": "Man City midfielder offering energy, passing range and goal threat." },
+    { "name": "Denzel Dumfries", "position": "RB/RWB", "role": "Attacking full-back", "note": "Powerful Inter wing-back delivering width and a direct aerial threat." }
+  ],
+  "historical_news": [
+    "Three-time World Cup runners-up (1974, 1978, 2010) but never champions.",
+    "Total Football heritage remains a defining national identity.",
+    "Late injury blows: Jurrien Timber forced out pre-tournament, Jeremie Frimpong omitted injured.",
+    "Koeman tasked with turning a talented squad into a deep tournament run.",
+    "Van Dijk's leadership central to expectations of a knockout-stage push."
+  ],
+  "media_sentiment": { "label": "neutral", "confidence": 0.65, "summary": "Respected dark horse, but injuries and questions over cohesion temper expectations." },
+  "sources": [
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/netherlands-ronald-koeman-squad-announced",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-netherlands-players-squad-list-key-stats-schedule",
+    "https://www.flashscore.com/news/soccer-netherlands-football-world-cup-full-squad-list/46hO0YCm/"
+  ]
+}

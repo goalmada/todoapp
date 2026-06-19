@@ -1,0 +1,30 @@
+{
+  "team": "New Zealand",
+  "iso3": "NZL",
+  "fifa_rank": 85,
+  "fifa_points": 1275.58,
+  "as_of": "2026-06-11",
+  "style": "Physical, set-piece-oriented All Whites built on a cohesive, hard-working defensive shape and direct play to a focal-point striker. Disciplined and well-drilled, relying on organisation and aerial threat to compete with stronger sides.",
+  "recent_form": "Comfortable OFC qualifiers to reach the World Cup; enter the finals as the lowest-ranked nation in the 48-team field. Drawn in Group G with Belgium, Egypt and Iran.",
+  "strength_index": 49,
+  "key_players": [
+    { "name": "Chris Wood", "position": "FW", "role": "captain, talisman", "note": "Nottingham Forest striker and New Zealand's all-time leading scorer; at 34 captains the side at likely his final World Cup as the central attacking outlet." },
+    { "name": "Tommy Smith", "position": "DF", "role": "veteran defender", "note": "Experienced centre-back set to join Wood as the only NZ players to feature at two World Cups; leadership at the back." },
+    { "name": "Marko Stamenic", "position": "MF", "role": "central midfielder", "note": "Young European-based midfielder providing energy and progression in the engine room." }
+  ],
+  "historical_news": [
+    "Enter the tournament as the lowest-ranked nation in the entire 48-team field (85th).",
+    "Chris Wood and Tommy Smith set to become the only New Zealanders to appear at two World Cups.",
+    "Drawn in Group G alongside Belgium, Egypt and Iran."
+  ],
+  "media_sentiment": {
+    "label": "neutral",
+    "confidence": 0.55,
+    "summary": "Coverage centres on Chris Wood's leadership and a likely farewell tournament, with modest expectations given the lowest ranking in the field."
+  },
+  "sources": [
+    "https://worldsoccertalk.com/world-cup/world-cup-2026-what-is-new-zealands-current-fifa-world-ranking-the-lowest-in-the-tournament/",
+    "https://worldsoccertalk.com/world-cup/new-zealand-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/",
+    "https://www.nzfootball.co.nz/newsarticle/165753?newsfeedId=1275608"
+  ]
+}

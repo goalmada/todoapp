@@ -1,0 +1,30 @@
+{
+  "team": "Cabo Verde",
+  "iso3": "CPV",
+  "fifa_rank": 67,
+  "fifa_points": 1371.11,
+  "as_of": "2026-06-11",
+  "style": "Energetic, well-organised side that blends Lusophone technical comfort with athletic intensity. Compact defensively and dangerous in transition, drawing largely on a Portugal- and Europe-based diaspora.",
+  "recent_form": "Sensational debut qualification under coach Bubista, topping CAF Group D with 23 points and only one defeat, finishing ahead of Cameroon. Earned a creditable draw with Spain in their World Cup opener before facing Uruguay and Saudi Arabia in Group H.",
+  "strength_index": 52,
+  "key_players": [
+    { "name": "Vozinha", "position": "GK", "role": "goalkeeper", "note": "Standout league performer this season and a reliable last line for the islanders." },
+    { "name": "Diney Borges", "position": "MF", "role": "midfielder", "note": "One of the team's strongest performers by club form; contributes energy and quality in midfield." },
+    { "name": "Sidny Lopes Cabral", "position": "MF", "role": "midfielder", "note": "Highly rated this season; adds technical control and progression to the side." }
+  ],
+  "historical_news": [
+    "Qualified for their first-ever FIFA World Cup, an island nation of just over 500,000 people.",
+    "Topped CAF Group D ahead of continental giant Cameroon to secure automatic qualification under Bubista.",
+    "Held Spain to a draw in their World Cup debut match, a landmark result for the Blue Sharks."
+  ],
+  "media_sentiment": {
+    "label": "positive",
+    "confidence": 0.65,
+    "summary": "Widely framed as a feel-good fairytale; their qualification over Cameroon and a debut draw with Spain drew global praise for one of the smallest nations ever to reach the finals."
+  },
+  "sources": [
+    "https://worldsoccertalk.com/world-cup/cape-verde-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/",
+    "https://inside.fifa.com/fifa-world-ranking/CPV?gender=men",
+    "https://bolavip.com/en/amp/world-cup/whats-cape-verdes-fifa-ranking-and-how-did-they-qualify-for-2026-world-cup-spains-group-opponent"
+  ]
+}

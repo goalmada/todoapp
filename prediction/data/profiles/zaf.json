@@ -1,0 +1,51 @@
+{
+  "team": "South Africa",
+  "iso3": "ZAF",
+  "fifa_rank": 60,
+  "fifa_points": 1428.38,
+  "as_of": "2026-06-11",
+  "style": "Disciplined, organised side under Hugo Broos built on a solid defensive structure and expressive, technical attacking play. Mixes patient build-up from a domestically-based core with quick wide combinations.",
+  "recent_form": "Qualified as group winners in CAF qualifying and returned to the World Cup for the first time since hosting in 2010. Drawn in Group A with co-hosts Mexico, South Korea and Czechia; opened against Mexico on 11 June.",
+  "strength_index": 54,
+  "key_players": [
+    {
+      "name": "Ronwen Williams",
+      "position": "GK",
+      "role": "captain, leader",
+      "note": "34-year-old goalkeeper and most-capped man in the squad (62 caps). Calm, analytical, holds an AFCON penalty-shootout saves record; the backbone of Broos's revival."
+    },
+    {
+      "name": "Lyle Foster",
+      "position": "FW",
+      "role": "primary striker",
+      "note": "Burnley forward and main attacking focal point; 10 goals in 26 caps, the squad's most productive forward and one of few based in Europe."
+    },
+    {
+      "name": "Teboho Mokoena",
+      "position": "MF",
+      "role": "central midfielder",
+      "note": "Mamelodi Sundowns midfielder; key ball-progressor and set-piece threat in the engine room."
+    },
+    {
+      "name": "Themba Zwane",
+      "position": "MF",
+      "role": "playmaker",
+      "note": "Experienced Sundowns creator providing guile and final-third quality."
+    }
+  ],
+  "historical_news": [
+    "First World Cup appearance since hosting the 2010 finals.",
+    "Ranked the lowest-placed African nation in the field per the June 2026 FIFA ranking.",
+    "Broos named a heavily domestic-based 26 with two uncapped debutants (Olwethu Makhanya and Bradley Cross)."
+  ],
+  "media_sentiment": {
+    "label": "neutral",
+    "confidence": 0.55,
+    "summary": "Optimism about a return to the big stage and Broos's disciplined project, tempered by a low ranking and a difficult group with the co-hosts."
+  },
+  "sources": [
+    "https://worldsoccertalk.com/world-cup/world-cup-2026-what-is-south-africas-current-fifa-world-ranking/",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-how-far-will-broos-discipline-take-south-africa-s-expressive-team-all-players-full-squad-list-key-stats-and-schedule",
+    "https://www.safa.net/general-news/broos-names-final-bafana-squad-for-the-2026-fifa-world-cup/"
+  ]
+}

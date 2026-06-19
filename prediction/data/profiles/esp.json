@@ -1,0 +1,31 @@
+{
+  "team": "Spain",
+  "iso3": "ESP",
+  "fifa_rank": 2,
+  "fifa_points": 1874.71,
+  "as_of": "2026-06-11",
+  "style": "Possession-dominant positional play, high press, quick combinations and overloads through a technically elite midfield.",
+  "recent_form": "Reigning European champions; arrived as one of the pre-tournament favourites despite a reportedly sluggish opening group draw.",
+  "strength_index": 93,
+  "key_players": [
+    { "name": "Lamine Yamal", "position": "RW", "role": "Star attacker", "note": "Generational dribbler and creator; eased in from injury but the team's main x-factor." },
+    { "name": "Rodri", "position": "DM", "role": "Captain, midfield anchor", "note": "2024 Ballon d'Or winner back from a serious knee injury; controls tempo as well as anyone in the world." },
+    { "name": "Pedri", "position": "CM", "role": "Deep-lying playmaker", "note": "Press-resistant maestro who dictates rhythm and progresses the ball." },
+    { "name": "Nico Williams", "position": "LW", "role": "Winger", "note": "Direct, explosive runner providing width and one-v-one threat." },
+    { "name": "Mikel Merino", "position": "CM", "role": "Box-arriving midfielder", "note": "Physical presence and aerial/goal threat from deep." },
+    { "name": "Mikel Oyarzabal", "position": "ST", "role": "Forward", "note": "Reliable finisher and pressing leader through the middle." }
+  ],
+  "historical_news": [
+    "Reigning UEFA European champions arriving in form and confidence.",
+    "2010 World Cup winners, the peak of the tiki-taka golden generation.",
+    "Notable selection storyline: no Real Madrid players named in the 26-man squad.",
+    "Rodri's return from a major knee injury is a key narrative for the title bid.",
+    "Lamine Yamal's rise as the face of a new Spanish golden generation."
+  ],
+  "media_sentiment": { "label": "positive", "confidence": 0.8, "summary": "Strong favourites alongside France and Argentina, with some caution after a flat group-stage opener." },
+  "sources": [
+    "https://www.espn.com/soccer/story/_/id/48870392/spain-world-cup-2026-squad-confirmed-lamine-yamal-stars-no-real-madrid-players",
+    "https://cryptobriefing.com/argentina-fifa-rankings-2026-world-cup/",
+    "https://www.olympics.com/en/news/football-fifa-world-cup-2026-spain-preview-full-squad-list-key-stats-schedule"
+  ]
+}

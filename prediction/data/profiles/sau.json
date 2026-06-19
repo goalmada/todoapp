@@ -1,0 +1,60 @@
+{
+  "team": "Saudi Arabia",
+  "iso3": "SAU",
+  "fifa_rank": 61,
+  "fifa_points": 1423.88,
+  "as_of": "2026-06-11",
+  "style": "Compact, counter-attacking side under Georgios Donis built around a strong Saudi Pro League core and continuity from the squad that beat Argentina in 2022. Looks to spring quick breaks through Al-Dawsari and Al-Buraikan; organized and disciplined defensively.",
+  "recent_form": "Qualified through the AFC route, prioritizing continuity. Al-Buraikan finished as the side's top scorer in AFC qualifying with five goals.",
+  "strength_index": 54,
+  "key_players": [
+    {
+      "name": "Salem Al-Dawsari",
+      "position": "FW",
+      "role": "captain / winger",
+      "note": "34-year-old captain (108 caps, 26 goals) at his third World Cup; scored the iconic winner against Argentina in 2022."
+    },
+    {
+      "name": "Firas Al-Buraikan",
+      "position": "FW",
+      "role": "striker",
+      "note": "Al-Ahli forward and the squad's most dangerous finisher; top scorer in AFC qualifying with five goals, reliable left foot."
+    },
+    {
+      "name": "Saud Abdulhamid",
+      "position": "DF",
+      "role": "right-back",
+      "note": "France-based full-back bringing European experience to the back line."
+    },
+    {
+      "name": "Mohammed Al-Owais",
+      "position": "GK",
+      "role": "goalkeeper",
+      "note": "Experienced first-choice keeper, part of the 2022 nucleus."
+    },
+    {
+      "name": "Salman Al-Faraj",
+      "position": "MF",
+      "role": "central midfielder",
+      "note": "Veteran midfield organizer providing continuity and control."
+    }
+  ],
+  "historical_news": [
+    "Qualified for the 2026 World Cup via the AFC route under coach Georgios Donis.",
+    "Squad built around the continuity of the side that famously beat Argentina at Qatar 2022.",
+    "Al-Ahli supplied five players after their AFC Champions League triumph.",
+    "Captain Salem Al-Dawsari arrives at his third World Cup.",
+    "Squad selection prioritized Saudi Pro League experience over wider changes."
+  ],
+  "media_sentiment": {
+    "label": "neutral",
+    "confidence": 0.5,
+    "summary": "Steady, expectation-managing coverage: belief in the experienced 2022 core and Al-Dawsari's leadership, but acknowledgment of limited squad turnover and a demanding draw featuring stronger European opposition."
+  },
+  "sources": [
+    "https://bolavip.com/en/amp/world-cup/whats-saudi-arabias-fifa-ranking-at-the-2026-world-cup-uruguay-spains-group-opponent",
+    "https://english.alarabiya.net/sports/2026/05/25/saudi-arabia-s-fifa-world-cup-2026-squad-who-s-in-and-who-s-out",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-saudi-arabia-all-players-full-squad-list-key-stats-schedule",
+    "https://worldsoccertalk.com/world-cup/saudi-arabia-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/"
+  ]
+}
