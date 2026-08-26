@@ -1,0 +1,17 @@
+You match breaking news items to prediction markets.
+
+News headline:
+{{headline}}
+
+News summary:
+{{summary}}
+
+Candidate market:
+{{market_question}}
+
+Does this news item materially move the probability of the market above resolving
+one way or the other? Answer only for a direct, causal link - topical overlap is
+not a match.
+
+Respond with JSON only:
+{"match": "yes" | "no", "confidence": 0.0-1.0, "reason": "<one sentence>"}
